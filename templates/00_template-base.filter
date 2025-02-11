@@ -1,0 +1,1251 @@
+# =======================================================================================================================================================
+# My Filter Template - for Path of Exile 2
+# =======================================================================================================================================================
+# VERSION:  0.1.1
+# AUTHOR:   Ale Núñez
+# Basic Template for Poe2 Custom filter
+#
+# ---------------------------------------------------------------------------------------------------
+# --- INDEX -----------------------------------------------------------------------------------------
+#   0001 / CURRENCY
+#     00011.1 /  Currency
+#       0001.1.1 / Tier S
+#       0001.1.2 / Tier A
+#       0001.1.3 / Tier B
+#       0001.1.4 / Tier C
+#       0001.1.5 / Scroll of Wisdom
+#       0001.1.6 / Gold
+#    00011.2 /  Special currency and league currency
+#       0001.2.1 / Sanctum
+#       0001.2.2 / Ultimatum  
+#       0001.2.3 / Delyrium / Simulacrum 
+#       0001.2.4 / Breach / Catalysts   
+#       0001.2.5 / Ritual / Omens
+#       0001.2.6 / Common
+#       0001.2.7 / Unknown Currency
+#   0002 / MAPS 
+#     0002.1 /  Waystones
+#       0002.1.1 / Waystones tier S
+#       0002.1.2 / Waystones tier A
+#       0002.1.3 / Waystones tier B
+#       0002.1.4 / Waystones tier C
+#     0002.2 /  Tablets
+#   0003 / GEMS
+#     0003.1 /  Gems tier S
+#     0003.1 /  Gems tier A
+#   0004 / FLASKS
+#   0005 / RUNES
+#     0005.1 / Tier A runes
+#     0005.2 / Base runes
+#   0006 / CHARMS
+#   0007 / SALVAGABLE
+#   0008 / EQUIPMENT
+#     0008.1 / Uniques
+#     0008.2 / Chance Bases
+#     0008.3 / Jewelry
+#     0008.4 / Jewels
+#     0008.5 / Weapons
+#       0008.5.1 / 1h Weapons
+#       0008.5.2 / 2h Weapons
+#       0008.5.3 / Off-hands
+#     0008.6 / Armour
+#       0008.6.1 / Body Armour
+#       0008.6.2 / Helmet
+#       0008.6.3 / Boot
+#       0008.6.4 / Gloves
+#       0008.6.5 / Init
+#   0009 / INIT
+#  
+# ..................................................................................................
+# ..................................................................................................
+
+
+# --------------------------------------------------------------------------------------------------
+# 0. OVERRIDES
+# --------------------------------------------------------------------------------------------------
+
+# Space for overrides
+
+
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0001. CURRENCY
+# ---------------------------------------------------------------------------------------- #currency
+# ==================================================================================================
+
+# ==============================================================================
+# 0001.1 Common currency
+# ==================================================================== #currency
+
+# ----------------------------------------------
+# 0001.1.1 Currency Tier S
+# ---------------------------------- #currency-s
+
+## Divine Orb Style
+Show
+  Class "Currency"
+  BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
+  SetTextColor 255 3 3
+  SetBorderColor 255 3 3
+  SetBackgroundColor 255 255 255
+  SetFontSize 45
+  PlayAlertSound 6 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+
+
+# ----------------------------------------------
+# 0001.1.2 Currency Tier A
+# ---------------------------------- #currency-a
+
+# A1 - Orb of Annulment
+Show
+  Class "Currency"
+  BaseType "Orb of Annulment"
+  SetBackgroundColor 255 3 3
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetFontSize 45
+  PlayAlertSound 1 300
+  PlayEffect Orange
+  MinimapIcon 1 Orange Circle
+
+# Currency Tier A2: Gemcutter, Greater Jeweller's Orb
+Show
+  Class "Currency"
+  BaseType "Orb of Chance" "Greater Jeweller's Orb"
+  SetTextColor 255 255 255
+  SetBackgroundColor 240 90 35
+  SetFontSize 40
+  PlayAlertSound 1 300
+  PlayEffect Orange
+  MinimapIcon 1 White Circle
+  
+
+# ----------------------------------------------
+# 0001.1.3 Currency Tier B
+# ---------------------------------- #currency-b
+
+# Currency Tier B1: Chaos
+Show
+  Class "Currency"
+  BaseType "Chaos Orb"
+  SetBackgroundColor 221 251 0
+  SetTextColor 0 0 0
+  PlayAlertSound 2 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 40
+
+# Currency Tier B2: Vaal
+Show
+  Class "Currency"
+  BaseType "Vaal Orb"
+  SetBackgroundColor 190 34 34
+  SetTextColor 251 221 0
+  SetBorderColor 251 221 0
+  PlayAlertSound 2 300
+  PlayEffect Red
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 40
+
+# Currency Tier B3: Exalted
+Show
+  Class "Currency"
+  BaseType "Exalted Orb"
+  SetBackgroundColor 251 221 0
+  SetTextColor 35 53 114
+  SetBorderColor 35 53 114
+  PlayAlertSound 2 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 38
+
+# Currency Tier B4: Alchemy
+Show
+  Class "Currency"
+  BaseType "Orb of Alchemy"
+  SetBackgroundColor 251 221 0
+  SetTextColor 0 0 0
+  PlayAlertSound 2 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 35
+
+# Currency Tier B5: Gem and Flask Quality
+Show
+  Class "Currency"
+  BaseType "Glassblower's Bauble" "Gemcutter's Prism"
+  SetBackgroundColor 7 255 168
+  SetTextColor 34 36 161
+  SetBorderColor 0 0 0 0
+  SetFontSize 40
+  PlayAlertSound 2 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+
+
+# Currency Tier B6: Regal
+Show
+  Class "Currency"
+  BaseType "Regal Orb"
+  SetBackgroundColor 64 213 229 
+  SetTextColor 34 36 161
+  PlayAlertSound 2 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+  SetFontSize 35
+
+
+# ----------------------------------------------
+# 0001.1.4 Currency Tier C
+# ---------------------------------- #currency-c
+
+# Currency Tier C1: Lesser Jew Orb, Artificer's
+Show
+  Class "Currency"
+  BaseType "Lesser Jeweller's Orb" "Artificer's Orb"
+  SetBackgroundColor 22 37 133
+  SetTextColor 255 207 132
+  SetBorderColor 255 207 132
+  PlayAlertSound 2 250
+  PlayEffect White
+  MinimapIcon 1 Grey Circle
+  SetFontSize 38
+
+# Currency Tier C2.1: Transmut
+Show
+  Class "Currency"
+  BaseType "Orb of Transmutation"
+  SetBackgroundColor 44 65 201
+  SetTextColor 255 255 255
+  SetFontSize 36
+  MinimapIcon 2 Grey Circle
+
+# Currency Tier C2.2: Augment, #shard
+Show
+  Class "Currency"
+  BaseType "Orb of Augmentation" " Shard"
+  SetBackgroundColor 83 99 202
+  SetTextColor 255 255 255
+  SetFontSize 36
+  MinimapIcon 2 Grey Circle
+
+# Currency Tier C4: Basic Quality | #quality
+Show
+  Class "Currency"
+  BaseType "Blacksmith's Whetstone" "Arcanist's Etcher"
+  SetBackgroundColor 29 39 56
+  SetTextColor 255 207 132
+  SetBorderColor 255 207 132
+  SetFontSize 38
+  MinimapIcon 2 Grey Circle
+
+Show
+  Class "Currency"
+  BaseType "Armourer's Scrap"
+  SetBackgroundColor 49 63 89
+  SetTextColor 255 207 132
+  SetBorderColor 255 207 132
+  SetFontSize 34
+  MinimapIcon 2 Grey Circle
+
+# ----------------------------------------------
+# 0001.1.5 SCROLL OF WISDOM (SHOW/HIDE)
+# -------------------------------------- #wisdom
+
+Show
+  Class "Currency"
+  BaseType "Scroll of Wisdom"
+
+
+# ----------------------------------------------
+# 0001.1.6 GOLD
+# ---------------------------------------- #gold
+
+Show
+  StackSize >= 850
+  BaseType == "Gold"
+  SetTextColor 255 179 56 240
+  SetBorderColor 255 179 56 240
+  PlayEffect Orange Temp
+  SetFontSize 38
+
+Show
+  StackSize >= 350
+  BaseType == "Gold"
+  SetTextColor 255 179 56 240
+  SetBorderColor 255 179 56 240
+  SetFontSize 32
+
+Show
+  BaseType == "Gold"
+  SetTextColor 255 179 56 240
+  SetBorderColor 0 0 0 0
+  SetBackgroundColor 0 0 0 120
+  SetFontSize 28
+
+
+
+
+# ==============================================================================
+# 0001.2 Special currency and league currency
+# ==================================================================== #currency
+
+# ----------------------------------------------
+# 0001.2.1 Sanctum
+# --------------------- #sanctum #sekhema #trial
+
+# Special Unique Relic
+Show
+  BaseType "Incense Relic"
+  Rarity Unique
+  SetBackgroundColor 255 128 33
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 45
+
+# Unique Relics
+Show
+  BaseType " Relic"
+  Rarity Unique
+  SetBackgroundColor 200 112 46
+  SetTextColor 53 13 13
+  SetBorderColor 53 13 13
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 40
+
+# Relics
+Show
+  BaseType " Relic"
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 231 194 174
+  SetFontSize 30
+
+# keys
+Show
+  BaseType "Bronze Key"
+  SetBackgroundColor 151 81 38 220
+  SetTextColor 255 187 61
+  SetBorderColor 255 187 61
+  SetFontSize 36
+
+Show
+  BaseType "Silver Key"
+  SetBackgroundColor 220 233 238 220
+  SetTextColor 40 61 142
+  SetBorderColor 255 255 255
+  SetFontSize 36
+
+# Gold Key apparently does not work
+Show 
+  BaseType "Gold Key"
+  SetBackgroundColor 255 217 0 245
+  SetTextColor 55 27 11
+  SetBorderColor 255 255 255
+  SetFontSize 40
+  PlayAlertSound 3 300
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow Star
+
+# ----------------------------------------------
+# 0001.2.2 Ultimatum
+# ---------------------------------- #currency-a
+
+# See in #common section ->
+
+# ----------------------------------------------
+# 0001.2.3 Delyrium / Simulacrum
+# ------------------------------------ #delirium 
+
+# See in #common section ->
+
+# ----------------------------------------------
+# 0001.2.4 Breach / Catalysts
+# ---------------------------- #catalist #breach
+
+# See in #common section ->
+
+# ----------------------------------------------
+# 0001.2.4 Expedition
+# ---------------------------------- #expedition
+
+# See in #common section ->
+
+# ----------------------------------------------
+# 0001.2.5 Ritual / Omens
+# -------------------------------- #ritual #omen
+
+# See in #common section ->
+
+# ----------------------------------------------
+# 0001.2.6 Common
+# ------------------------------ #league #common
+
+
+# League "keys" and Fragments
+# Barya and Ultimatum
+Show
+  BaseType "Barya" "Ultimatum"
+  # ItemLevel >= 80
+  SetBackgroundColor 239 202 159
+  SetTextColor 163 32 206
+  SetBorderColor 163 32 206
+  PlayAlertSound 2 300
+  PlayEffect Orange
+  MinimapIcon 1 Orange Square
+  SetFontSize 38
+
+# Hide
+#   BaseType "Barya" "Ultimatum"
+#   ItemLevel < 80
+
+# Pinnacle Keys
+Show
+  Class "Pinnacle Keys"
+  SetBackgroundColor 90 0 68
+  SetTextColor 255 57 206
+  SetBorderColor 255 57 206
+  PlayAlertSound 2 300
+  PlayEffect Pink
+  MinimapIcon 1 Pink Square
+  SetFontSize 40
+
+#Simulacrum, Breachstone, Fragments, Fates and Logbooks
+Show
+  BaseType "Simulacrum" "Breachstone" " Fragment" "Cowardly Fate" "Deadly Fate" "Victorious Fate" "Expedition Logbook" "An Audience with the King"
+  SetBackgroundColor 90 0 68
+  SetTextColor 255 57 206
+  SetBorderColor 255 57 206
+  PlayAlertSound 2 300
+  PlayEffect Pink
+  MinimapIcon 1 Pink Square
+  SetFontSize 40
+
+# League currency, tier S
+Show
+  BaseType "Distilled Isolation" "Soul Core of Azcapa" "Omen of Corruption" "Omen of Dextral Annulment" "Omen of Dextral Erasure" "Omen of Sinistral Annulment" "Omen of Sinistral Erasure" "Omen of Whittling"
+  SetBackgroundColor 255 255 255
+  SetBorderColor 255 0 81
+  SetTextColor 255 0 81
+  SetFontSize 45
+  PlayAlertSound 6 300
+  MinimapIcon 2 Pink Circle
+
+# League currency, tier A
+Show
+  BaseType "Greater Essence of" "Distilled Suffering" "Distilled Fear" "Soul Core of Citaqualotl" "Soul Core of Zalatl" "Omen of Amelioration" "Adaptive Catalyst" "Neural Catalyst"
+  SetBackgroundColor 255 0 81
+  SetBorderColor 255 255 255
+  SetTextColor 255 255 255
+  SetFontSize 40
+  PlayAlertSound 2 300
+  MinimapIcon 2 Pink Circle
+
+# League currency, tier B
+Show
+  BaseType "Distilled Despair" "Distilled Disgust" "Distilled Envy" "Distilled Paranoia" "Soul Core of Jiquani" "Soul Core of Opiloti" "Soul Core of Puhuarte" "Soul Core of Quipolatl" "Soul Core of Tacati" "Soul Core of Ticaba" "Soul Core of Topotante" "Soul Core of Tzamoto" "Soul Core of Xopec" "Omen of Greater Annulment" "Omen of Resurgence" "Omen of Sinistral Alchemy" "Omen of Sinistral Coronation" "Omen of Sinistral Exaltation" "Carapace Catalyst" "Chayula's Catalyst" "Esh's Catalyst" "Flesh Catalyst" "Reaver Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Tul's Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst"
+  SetBackgroundColor 136 24 56
+  SetTextColor 255 255 255
+  SetFontSize 36
+  PlayAlertSound 2 220
+  MinimapIcon 2 Pink Circle
+
+# League currency, tier C
+Show
+  BaseType "Essence of" "Exotic Coin" "Omen of " "Catalyst" "Distilled " "Soul Core"
+  # BaseType == "Omen of Dextral Alchemy" "Omen of Dextral Coronation" "Omen of Dextral Exaltation" "Omen of Greater Exaltation" "Omen of Refreshment"
+  # BaseType == "Adaptive Catalyst" "Carapace Catalyst" "Chayula's Catalyst" "Esh's Catalyst" "Flesh Catalyst" "Neural Catalyst" "Reaver Catalyst" "Sibilant Catalyst" "Skittering Catalyst" "Tul's Catalyst" "Uul-Netol's Catalyst" "Xoph's Catalyst"
+  SetBackgroundColor 136 24 56
+  SetTextColor 255 255 255
+  SetFontSize 36
+  PlayAlertSound 2 220
+  MinimapIcon 2 Pink Circle
+
+# Splinters, Artifacts...
+Show
+  Class "Currency"
+  BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
+  SetBackgroundColor 0 0 0 185
+  SetTextColor 252 63 132
+  SetFontSize 38
+  MinimapIcon 2 Pink Circle
+
+
+# ----------------------------------------------
+# 0001.2.7 Unknown Currency
+# ----------------------------- #league #unknown
+
+Show
+  Class "Currency"
+  SetTextColor 255 217 0 245
+  SetBorderColor 55 27 11
+  SetBackgroundColor 255 255 255
+  SetFontSize 36
+  PlayAlertSound 2 300
+  PlayEffect Pink
+  MinimapIcon 1 Pink Circle
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0002. MAPS
+# ---------------------------------------------------------------------------------- #map #waystones
+# ==================================================================================================
+
+# ==============================================================================
+# 0002.1 Waystones
+# ============================================================== #map #waystones
+
+# ----------------------------------------------
+# 0002.1.1 TIER S Waystones
+# Beyond Tier 15
+# ------------------------------ #map #waystones
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 16
+  SetBackgroundColor 255 255 255
+  SetBorderColor 78 153 52
+  SetTextColor 78 153 52
+  SetFontSize 40
+  PlayAlertSound 2 300
+  PlayEffect White
+  MinimapIcon 2 Red Square
+
+# ----------------------------------------------
+# 0002.1.2 TIER A Waystones
+# ------------------------------ #map #waystones
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 11
+  Rarity Rare
+  SetBackgroundColor 78 153 52
+  SetTextColor 255 255 255
+  SetBorderColor 255 204 26
+  SetFontSize 40
+  PlayAlertSound 2 300
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 11
+  Rarity Magic
+  SetBackgroundColor 78 153 52
+  SetTextColor 255 255 255
+  SetBorderColor 116 143 242
+  SetFontSize 40
+  PlayAlertSound 2 300
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 11
+  Rarity Normal
+  SetBackgroundColor 78 153 52
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetFontSize 40
+  PlayAlertSound 2 300
+
+# ----------------------------------------------
+# 0002.1.3 TIER B Waystones
+# ------------------------------ #map #waystones
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 6
+  Rarity Rare
+  SetBackgroundColor 31 108 4 220
+  SetTextColor 255 255 255
+  SetBorderColor 255 204 26
+  SetFontSize 36
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 6
+  Rarity Magic
+  SetBackgroundColor 31 108 4 220
+  SetTextColor 255 255 255
+  SetBorderColor 116 143 242
+  SetFontSize 36
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 6
+  Rarity Normal
+  SetBackgroundColor 31 108 4 220
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetFontSize 36
+
+# ----------------------------------------------
+# 0002.1.2 TIER C Waystones
+# ------------------------------ #map #waystones
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 1
+  Rarity Rare
+  SetBackgroundColor 26 78 9 185
+  SetTextColor 255 255 255
+  SetBorderColor 255 204 26
+  SetFontSize 30
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 1
+  Rarity Magic
+  SetBackgroundColor 26 78 9 185
+  SetTextColor 255 255 255
+  SetBorderColor 116 143 242
+  SetFontSize 30
+
+Show
+  Class "Waystones"
+  WaystoneTier >= 1
+  Rarity Normal
+  SetBackgroundColor 26 78 9 185
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  SetFontSize 30
+
+
+# ==============================================================================
+# 0002.2 Tablets
+# ================================================================ #map #tablets
+
+# Leagues tablet
+Show
+  Class "Tablet"
+  BaseType "Breach " "Expedition " "Delirium " "Ritual "
+  SetBackgroundColor 163 32 206
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  PlayAlertSound 2 300
+  PlayEffect Purple
+  MinimapIcon 1 Purple Square
+  SetFontSize 42
+
+# Precursor tablet
+Show
+  Class "Tablet"
+  SetBackgroundColor 65 20 80
+  SetTextColor 255 207 255
+  SetBorderColor 255 207 255
+  PlayAlertSound 2 300
+  PlayEffect Purple
+  MinimapIcon 1 Purple Square
+  SetFontSize 38
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0003. GEMS
+# -------------------------------------------------------------------------------------------- #gems
+# ==================================================================================================
+
+# ----------------------------------------------
+# 0003.1. Gems tier S
+# lvl 20 gems
+# ---------------------------------------- #gems
+
+Show
+  BaseType "Uncut "
+  ItemLevel >= 20
+  SetBackgroundColor 255 168 249
+  SetTextColor 0 0 0
+  PlayAlertSound 2 300
+  PlayEffect Red
+  MinimapIcon 1 Red Triangle
+  SetFontSize 45
+
+# ----------------------------------------------
+# 0003.2. Gems tier A
+# current tier
+# ---------------------------------------- #gems
+
+# SKILL GEM, CURRENT TIER
+Show
+  BaseType "Uncut Skill"
+  # ItemLevel >= 19
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 255 168 249
+  SetBorderColor 255 168 249
+  MinimapIcon 1 White Triangle
+  SetFontSize 36
+
+# SPIRITSKILL GEM, CURRENT TIER
+Show
+  BaseType "Uncut Spirit"
+  # ItemLevel >= 19
+  SetBackgroundColor 23 57 73
+  SetTextColor 255 168 249
+  SetBorderColor 255 168 249
+  MinimapIcon 1 White Triangle
+  SetFontSize 36
+
+# SUPPORT GEM, CURRENT TIER
+Show
+  BaseType "Uncut Support"
+  SetBackgroundColor 43 33 30 220
+  SetTextColor 255 168 249
+  MinimapIcon 1 Grey Triangle
+  SetFontSize 36
+
+# GEM BASE STYLE
+Show
+  BaseType "Uncut "
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 255 168 249
+  MinimapIcon 1 Grey Triangle
+  SetFontSize 30
+
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0004. FLASKS
+# ------------------------------------------------------------------------------------------ #flasks
+# ==================================================================================================
+
+# Quality Flasks
+Show
+  Class "Flasks"
+  Quality >= 1
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 200 200 200
+  SetFontSize 36
+
+# Flasks HIDE override
+# Hide
+  # Class "Flasks"
+  # BaseType "Ultimate " "Trascendent " "Gargantuan " "Colossal " "Giant " "Grand " "Greater " "Medium " "Lesser "
+
+# Life flasks
+Show
+  Class "Life Flasks"
+  # Rarity >= Magic
+  # ItemLevel >= 60
+  SetBackgroundColor 99 45 45 130
+  SetBorderColor 163 113 113
+  SetFontSize 32
+
+# Mana flasks
+Show
+  Class "Mana Flasks"
+  # Rarity >= Magic
+  # ItemLevel >= 60
+  SetBackgroundColor 41 89 97 130
+  SetBorderColor 64 128 139
+  SetFontSize 32
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0005. RUNES
+# ------------------------------------------------------------------------------------------- #runes
+# ==================================================================================================
+
+# ----------------------------------------------
+# 0005.1. Runes tier A
+# --------------------------------------- #runes
+
+Show
+  BaseType "Iron Rune"
+  SetBackgroundColor 41 33 51
+  SetTextColor 173 116 253
+  SetBorderColor 173 116 253
+  SetFontSize 40
+
+# ----------------------------------------------
+# 0005.2. Base Runes
+# --------------------------------------- #runes
+
+# Base Rune
+Show
+  BaseType " Rune"
+  SetBackgroundColor 0 0 0 120
+  SetTextColor 173 116 253
+  SetBorderColor 173 116 253
+  SetFontSize 34
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0006. CHARMS
+# ------------------------------------------------------------------------------------------- #runes
+# ==================================================================================================
+
+# high ilvl charm
+Show
+  BaseType " Charm"
+  ItemLevel > 82
+  SetBackgroundColor 0 0 0 255
+  SetTextColor 74 129 58
+  SetBorderColor 74 129 58
+  SetFontSize 38
+
+# Base Charm
+Show
+  BaseType " Charm"
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 74 129 58
+  SetBorderColor 74 129 58
+  SetFontSize 34
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0007. SALVAGABLE
+# -------------------------------------------------------------------------------------- #salvagable
+# ==================================================================================================
+
+Show
+  Sockets > 0
+  Rarity Normal
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 200 200 200
+  SetFontSize 35
+
+Show
+  Quality > 1
+  Rarity Normal
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 200 200 200
+  SetFontSize 35
+
+Show
+  Sockets > 0
+  Rarity Magic
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 0 0 200
+  SetFontSize 35
+
+Show
+  Quality > 1
+  Rarity Magic
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 0 0 200
+  SetFontSize 35
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 0008. EQUIPMENT
+# ---------------------------------------------------------------------------------------- #currency
+# ==================================================================================================
+
+# ==============================================================================
+# 0008.0 Decorators
+# ====================================================================== #unique
+
+# Corrupted items decoration
+Show
+  Corrupted true
+  SetBorderColor 255 0 0
+
+# ==============================================================================
+# 0008.1 Uniques
+# ====================================================================== #unique
+
+# Special Unique
+Show
+  Rarity Unique
+  BaseType == "Armoured Cap" "Emerald" "Furtive Wraps" "Incense Relic" "Ornate Belt" "Ring" "Ruby" "Sapphire" "Smuggler Coat" "Stone Tower Shield" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Ultimate Mana Flask" "Utility Belt" "Vase Relic"
+  SetBackgroundColor 255 128 33
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 45
+
+# Nice Unique (Uncomment to show)
+Show
+  Rarity Unique
+	BaseType == "Altar Robe" "Burnished Gauntlets" "Conqueror Plate" "Crucible Tower Shield" "Diamond" "Feathered Tiara" "Fine Bracers" "Gold Amulet" "Grand Regalia" "Grand Visage" "Heavy Crown" "Wyrm Quarterstaff" "Spined Bracers"
+  SetBackgroundColor 200 112 46
+  SetTextColor 53 13 13
+  SetBorderColor 53 13 13
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 40
+
+Show # $type->uniques $tier->multispecialhigh
+	Rarity Unique
+	BaseType == "Amethyst Ring" "Heavy Belt" "Sapphire Ring" "Stellar Amulet"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 188 96 37 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Star
+
+Show # $type->uniques $tier->multispecial
+	Rarity Unique
+	BaseType == "Amber Amulet" "Azure Amulet" "Crimson Amulet" "Emerald Ring" "Gold Ring" "Jade Amulet" "Lazuli Ring" "Moulded Mitts" "Pearl Ring" "Solar Amulet" "Spiked Club" "Tribal Mask"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 188 96 37 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Star
+
+# Basic Unique
+Show
+  Rarity Unique
+  SetBackgroundColor 53 13 13 255
+  SetTextColor 175 96 37 255
+  SetBorderColor 175 96 37 255
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 38
+
+# ==============================================================================
+# 0008.2 Chance bases
+# ================================================================ #chance-bases
+
+Hide
+  Rarity Normal
+  BaseType "Advanced Spined Bracers"
+
+Show
+  Rarity Normal
+  BaseType "Spined Bracers" "Heavy Belt" "Sapphire Ring" "Stellar Amulet" "Solid Mask"
+  SetBackgroundColor 0 0 0 50
+  SetTextColor 255 255 255
+  SetBorderColor 255 166 49
+  SetFontSize 38
+
+# ==============================================================================
+# 0008.3 Jewelry
+# ============================================================== #equip #jewelry
+
+# HIDE BAD JEWELRY BASES --
+# Hide
+#   Class "Rings"
+#   Rarity <= Magic
+#   BaseType "Iron Ring" "Lazuli Ring" "Emerald Ring" "Pearl Ring" "Unset Ring"
+
+# Hide
+#   Class "Amulets"
+#   Rarity <= Magic
+#   BaseType "Crimson Amulet"
+
+# Hide
+#   Class "Belts"
+#   Rarity <= Magic
+#   BaseType "Rawhide Belt" "Linen Belt" "Wide Belt" "Long Belt" "Ornate Belt" "Mail Belt" "Double Belt" "Heavy Belt"
+
+
+# Highlight Jewelry
+Show
+  Class "Rings" "Amulets" "Belts"
+  Rarity Rare
+  SetTextColor 233 206 75
+  SetBorderColor 233 206 75
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Diamond
+  SetFontSize 40
+
+Show
+  Class "Rings" "Amulets" "Belts"
+  Rarity Magic
+  SetFontSize 40
+
+Show
+  Rarity Normal
+  Class "Rings" "Amulets" "Belts"
+  SetFontSize 38
+
+
+# ==============================================================================
+# 0008.4 Jewels
+# =============================================================== #equip #jewels
+
+# Unique Jewels
+Show
+  Class "Jewels"
+  Rarity Unique
+  SetBackgroundColor 235 125 0
+  SetTextColor 148 253 244
+  SetBorderColor 68 217 205
+  SetFontSize 42
+  MinimapIcon 2 Cyan Triangle
+  PlayEffect Cyan Temp
+
+# Time-Lost Jewels
+Show
+  Class "Jewels"
+  BaseType "Time-Lost "
+  SetBackgroundColor 72 255 234
+  SetTextColor 0 0 0
+  SetBorderColor 0 0 0 0
+  SetFontSize 42
+  MinimapIcon 2 Cyan Triangle
+  PlayEffect Cyan Temp
+
+# Any Jewels
+Show
+  Class "Jewels"
+  SetBackgroundColor 0 0 0 185
+  SetTextColor 72 255 234
+  SetBorderColor 72 255 234
+  SetFontSize 40
+  MinimapIcon 2 Cyan Triangle
+  PlayEffect Cyan Temp
+
+# ==============================================================================
+# 0008.5 Weapons
+# ============================================================== #equip #weapons
+
+# ----------------------------------------------
+# 0008.5.1 1h Weapons
+# ------------------------- #weapons #1h-weapons
+
+# Better bases to show
+# Show
+#     Class ""
+#     BaseType ""
+#     Rarity >= Normal
+#     ItemLevel >= 77
+#     SetFontSize 45
+
+# Bases to show
+# Show
+#   Class ""
+#   BaseType ""
+#   Rarity >= Normal
+#   SetFontSize 40
+
+# INIT: Hide 1H  Weapons
+Hide
+  Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"
+  Rarity <= Magic
+
+# ----------------------------------------------
+# 0008.5.2 2h Weapons
+# ------------------------- #weapons #2h-weapons
+
+# Better bases to show
+# Show
+#     Class ""
+#     BaseType ""
+#     Rarity >= Normal
+#     ItemLevel >= 77
+#     SetFontSize 45
+
+# Bases to show
+# Show
+#   Class ""
+#   BaseType ""
+#   Rarity >= Normal
+#   SetFontSize 40
+
+# INIT: Hide 2H Weapons
+Hide
+  Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows"
+  Rarity <= Magic
+
+# ----------------------------------------------
+# 0008.5.3 Off-hands
+# --------------------------- #weapons #off-hand
+
+# Better bases to show
+# Show
+#     Class ""
+#     BaseType ""
+#     Rarity >= Normal
+#     ItemLevel >= 77
+#     SetFontSize 45
+
+# Bases to show
+# Show
+#   Class ""
+#   BaseType ""
+#   Rarity >= Normal
+#   SetFontSize 40
+
+# INIT: Hide Off-Hands
+Hide
+  Class "Quivers" "Shields" "Foci" "Focus"
+  Rarity <= Magic
+
+
+# ==============================================================================
+# 0008.6 Armour
+# =============================================================== #equip #armour
+
+# ----------------------------------------------
+# 0008.6.1 Body Armour
+# ------------------------- #armour #body-armour
+
+# Desired Specific BaseTypes
+# Show
+  # Class "Body Armours"
+  # BaseType "Expert " "Advanced "
+  # ItemLevel >= 78
+  # SetFontSize 42
+
+# -- Filter by stats
+# Show
+#   Class "Body Armours"
+#   BaseArmour 
+#   BaseEvasion
+#   BaseEnergyShield
+#   SetFontSize 38
+
+# ----------------------------------------------
+# 0008.6.2 Helmet
+# ------------------------------ #armour #helmet
+
+# -- Desired Specific BaseTypes
+# Show
+#   Class "Helmets"
+  # BaseType "Expert " "Advanced "
+  # ItemLevel >= 78
+  # SetFontSize 42
+
+# -- Filter by stats
+# Show
+#   Class "Helmets"
+#   BaseArmour 
+#   BaseEvasion
+#   BaseEnergyShield
+#   SetFontSize 38
+
+# ----------------------------------------------
+# 0008.6.3 Boot
+# ------------------------------ #armour #helmet
+
+# -- Desired Specific BaseTypes
+# Show
+#   Class "Boots"
+  # BaseType "Expert " "Advanced "
+  # ItemLevel >= 82
+  # SetFontSize 42
+
+# -- Filter by stats
+# Show
+#   Class "Boots"
+#   BaseArmour 
+#   BaseEvasion
+#   BaseEnergyShield
+#   SetFontSize 38
+
+# ----------------------------------------------
+# 0008.6.4 Gloves
+# ------------------------------ #armour #helmet
+
+# -- Desired Specific BaseTypes
+# Show
+#   Class "Gloves"
+  # BaseType "Expert " "Advanced "
+  # ItemLevel >= 78
+  # SetFontSize 42
+
+# -- Filter by stats
+# Show
+#   Class "Gloves"
+#   BaseArmour 
+#   BaseEvasion
+#   BaseEnergyShield
+#   SetFontSize 38
+
+# ----------------------------------------------
+# 0008.6.5 Init
+# -------------------------------- #armour #init
+
+Hide
+  Class "Body Armours" "Gloves" "Boots" "Helmets"
+  Rarity <= Magic
+
+
+# ==================================================================================================
+# --------------------------------------------------------------------------------------------------
+# 00009. INIT
+# -------------------------------------------------------------------------------------------- #init
+# ==================================================================================================
+
+
+
+
+# #######################################################################################################################################################
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
+# #######################################################################################################################################################
+# 
+# BASES LIST
+# 
+# Best Armour pieces (expert tier)
+# ("T1" "T2" "T3" ...)
+# 
+# ARMOUR ---------------------------------------------
+#
+# BODY ARMOUR AR   "Expert Iron Cuirass" "Expert Vaal Cuirass" "Expert Steel Plate"
+# BODY ARMOUR EV   "Expert Studded Vest" "Expert Pathfinder Coat" "Expert Serpentscale Coat"
+# BODY ARMOUR ES   "Expert Hexer's Robe" "Expert Altar Robe" "Expert Keth Raiment"
+# BODY ARMOUR AR/EV  "Expert Scale Mail" "Expert Cloaked Mail" "Expert Rogue Armour"
+# BODY ARMOUR AR/ES  "Expert Pelt Mantle" "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+# BODY ARMOUR EV/ES  "Expert Waxed Jacket" "Expert Scalper's Jacket" "Expert Wayfarer Jacket"
+#
+# GLOVES AR    "Expert Moulded Mitts" "Expert Bolstered Mitts" "Expert Riveted Mitts"
+# GLOVES EV    "Expert Spined Bracers" "Expert Sectioned Bracers" "Expert Firm Bracers"
+# GLOVES ES    "Expert Intricate Gloves" "Expert Jewelled Gloves" "Expert Sombre Gloves"
+# GLOVES AR/EV   "Expert Doubled Gauntlets" "Expert Layered Gauntlets" "Expert Ringmail Gauntlets"
+# GLOVES AR/ES   "Expert Goldcast Cuffs" "Expert Aged Cuffs" "Expert Rope Cuffs"
+# GLOVES EV/ES   "Expert Spiral Wraps" "Expert Linen Wraps" "Expert Gauze Wraps"
+#
+# HELMETS AR   "Expert Elite Greathelm" "Expert Spired Greathelm" "Expert Soldier Greathelm"
+# HELMETS EV   "Expert Hunter Hood" "Expert Swathed Cap" "Expert Felt Cap"
+# HELMETS ES   "Expert Feathered Tiara" "Expert Chain Tiara" "Expert Wicker Tiara"
+# HELMETS AR/EV  "Expert Shielded Helm" "Expert Cowled Helm" "Expert Guarded Helm"
+# HELMETS AR/ES  "Expert Heavy Crown" "Expert Martyr Crown" "Expert Horned Crown"
+# HELMETS EV/ES  "Expert Tribal Mask" "Expert Veiled Mask" "Expert Face Mask"
+#
+# BOOTS AR     "Expert Stone Greaves" "Expert Trimmed Greaves" "Expert Iron Greaves"
+# BOOTS EV     "Expert Lizardscale Boots" "Expert Steeltoe Boots" "Expert Laced Boots"
+# BOOTS ES     "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Wrapped Sandals"
+# BOOTS AR/EV  "Expert Stacked Sabatons" "Expert Braced Sabatons" "Expert Mail Sabatons"
+# BOOTS AR/ES  "Expert Pelt Leggings" "Expert Secured Leggings" "Expert Padded Leggings"
+# BOOTS EV/ES  "Expert Hunting Shoes" "Expert Threaded Shoes" "Expert Frayed Shoes"
+#
+#
+# WEAPONS ---------------------------------------------
+#
+# 2H
+#
+# BOWS
+# STAVES
+# TWO HAND SWORDS
+# AXES
+# TWO HANDED MACES
+# QUARTERSTAVES
+# CROSSBOWS
+# 
+# 1H
+#
+# CLAWS
+# DAGGERS
+# WANDS
+# ONE HAND SWORDS
+# ONE HAND AXES
+# ONE HAND MACES
+# SCEPTRES
+# SPEARS
+# FLAILS
+# 
+# OFFHANDS
+#
+# QUIVERS
+# SHIELDS
+# FOCUS
+#
+# ----------------------------------------------
+# BaseArmour
+# BaseEvasion
+# BaseEnergyShield
+# 
+# 
