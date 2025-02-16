@@ -1,0 +1,28 @@
+Show
+  Sockets > 0
+  Rarity Normal
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 200 200 200
+  SetFontSize 35
+
+Show
+  Quality > 1
+  Rarity Normal
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 200 200 200
+  SetFontSize 35
+
+Show
+  Sockets > 0
+  Rarity Magic
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 0 0 200
+  SetFontSize 35
+
+Show
+  Quality > 1
+  Rarity Magic
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 0 0 200
+  SetFontSize 35
+

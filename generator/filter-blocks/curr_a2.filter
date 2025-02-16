@@ -1,0 +1,11 @@
+# Currency Tier A2: Gemcutter, Greater Jeweller's Orb
+Show
+  Class "Currency"
+  BaseType "Orb of Chance" "Greater Jeweller's Orb"
+  SetTextColor 255 255 255
+  SetBackgroundColor 240 90 35
+  SetFontSize 40
+  PlayAlertSound 1 300
+  PlayEffect Orange
+  MinimapIcon 1 White Circle
+

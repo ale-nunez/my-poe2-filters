@@ -1,0 +1,5 @@
+# INIT: Hide 2H Weapons
+Hide
+  Class "Bows" "Staves" "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Quarterstaves" "Crossbows"
+  Rarity <= Magic
+

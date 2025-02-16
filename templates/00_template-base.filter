@@ -232,7 +232,7 @@ Show
   SetFontSize 36
   MinimapIcon 2 Grey Circle
 
-# Currency Tier C4: Basic Quality | #quality
+# Currency Tier C3: Basic Quality | #quality
 Show
   Class "Currency"
   BaseType "Blacksmith's Whetstone" "Arcanist's Etcher"
@@ -373,19 +373,19 @@ Show
 # See in #common section ->
 
 # ----------------------------------------------
-# 0001.2.4 Expedition
+# 0001.2.5 Expedition
 # ---------------------------------- #expedition
 
 # See in #common section ->
 
 # ----------------------------------------------
-# 0001.2.5 Ritual / Omens
+# 0001.2.6 Ritual / Omens
 # -------------------------------- #ritual #omen
 
 # See in #common section ->
 
 # ----------------------------------------------
-# 0001.2.6 Common
+# 0001.2.7 Common
 # ------------------------------ #league #common
 
 
@@ -584,7 +584,7 @@ Show
   SetFontSize 36
 
 # ----------------------------------------------
-# 0002.1.2 TIER C Waystones
+# 0002.1.4 TIER C Waystones
 # ------------------------------ #map #waystones
 
 Show

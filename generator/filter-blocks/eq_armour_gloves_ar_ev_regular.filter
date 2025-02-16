@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- AR/EV
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  BaseArmour > 1          #  48 54 67 80
+  BaseEvasion > 1         #  44 49 61 73
+  SetFontSize 36
+

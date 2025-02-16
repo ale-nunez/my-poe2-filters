@@ -1,0 +1,27 @@
+# Show
+#   Class "Waystones"
+#   WaystoneTier >= 1
+#   Rarity Rare
+#   SetBackgroundColor 26 78 9 185
+#   SetTextColor 255 255 255
+#   SetBorderColor 255 204 26
+#   SetFontSize 30
+
+# Show
+#   Class "Waystones"
+#   WaystoneTier >= 1
+#   Rarity Magic
+#   SetBackgroundColor 26 78 9 185
+#   SetTextColor 255 255 255
+#   SetBorderColor 116 143 242
+#   SetFontSize 30
+
+# Show
+#   Class "Waystones"
+#   WaystoneTier >= 1
+#   Rarity Normal
+#   SetBackgroundColor 26 78 9 185
+#   SetTextColor 255 255 255
+#   SetBorderColor 255 255 255
+#   SetFontSize 30
+

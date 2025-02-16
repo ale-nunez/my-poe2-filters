@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Foci" "Focus"
+#   BaseType "Expert Plumed Focus" "Expert Crystal Focus" "Expert Antler Focus" "Advanced Plumed Focus" "Advanced Voodoo Focus" "Advanced Crystal Focus" "Advanced Tonal Focus" "Advanced Antler Focus" "Advanced Woven Focus" "Magus Focus" "Attuned Focus" "Elegant Focus" "Paua Focus" "Jade Focus" "Plumed Focus" "Voodoo Focus" "Crystal Focus" "Tonal Focus" "Engraved Focus" "Antler Focus" "Woven Focus" "Twig Focus"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Foci" "Focus"
+  Rarity >= Normal
+  SetFontSize 38
+

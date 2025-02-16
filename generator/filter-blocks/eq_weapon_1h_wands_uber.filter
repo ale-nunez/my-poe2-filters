@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Wands"
+#   BaseType "Dueling Wand" "Primordial Wand" "Critical Wand" "Torture Wand" "Frigid Wand" "Offering Wand" "Acrid Wand" "Galvanic Wand" "Volatile Wand" "Siphoning Wand" "Attuned Wand" "Bone Wand" "Withered Wand"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Wands"
+  Rarity >= Normal
+  SetFontSize 38
+

@@ -1,0 +1,12 @@
+# Currency Tier C1: Lesser Jew Orb, Artificer's
+Show
+  Class "Currency"
+  BaseType "Lesser Jeweller's Orb" "Artificer's Orb"
+  SetBackgroundColor 22 37 133
+  SetTextColor 255 207 132
+  SetBorderColor 255 207 132
+  PlayAlertSound 2 250
+  PlayEffect White
+  MinimapIcon 1 Grey Circle
+  SetFontSize 38
+

@@ -1,0 +1,10 @@
+# --- Filter by BaseTypes
+# Show
+#   Class "Helmets"
+#   BaseType ""
+#   Rarity >= Normal
+#   ItemLevel >= 82
+#   SetFontSize 40
+
+# ----
+

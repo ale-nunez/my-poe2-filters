@@ -1,0 +1,10 @@
+# --- Filter by stats
+# -- ES
+Show
+  Class "Helmets"
+  Rarity >= Normal
+  BaseEnergyShield > 1      # 63 74 84 101
+  BaseArmour < 1 
+  BaseEvasion < 1
+  SetFontSize 36
+

@@ -1,0 +1,57 @@
+# Special Unique
+Show
+  Rarity Unique
+  BaseType == "Armoured Cap" "Emerald" "Furtive Wraps" "Incense Relic" "Ornate Belt" "Ring" "Ruby" "Sapphire" "Smuggler Coat" "Stone Tower Shield" "Timeless Jewel" "Time-Lost Diamond" "Ultimate Life Flask" "Ultimate Mana Flask" "Utility Belt" "Vase Relic"
+  SetBackgroundColor 255 128 33
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 45
+
+# Nice Unique (Uncomment to show)
+Show
+  Rarity Unique
+	BaseType == "Altar Robe" "Burnished Gauntlets" "Conqueror Plate" "Crucible Tower Shield" "Diamond" "Feathered Tiara" "Fine Bracers" "Gold Amulet" "Grand Regalia" "Grand Visage" "Heavy Crown" "Wyrm Quarterstaff" "Spined Bracers"
+  SetBackgroundColor 200 112 46
+  SetTextColor 53 13 13
+  SetBorderColor 53 13 13
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 40
+
+Show # $type->uniques $tier->multispecialhigh
+	Rarity Unique
+	BaseType == "Amethyst Ring" "Heavy Belt" "Sapphire Ring" "Stellar Amulet"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 188 96 37 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Star
+
+Show # $type->uniques $tier->multispecial
+	Rarity Unique
+	BaseType == "Amber Amulet" "Azure Amulet" "Crimson Amulet" "Emerald Ring" "Gold Ring" "Jade Amulet" "Lazuli Ring" "Moulded Mitts" "Pearl Ring" "Solar Amulet" "Spiked Club" "Tribal Mask"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 188 96 37 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Star
+
+# Basic Unique
+Show
+  Rarity Unique
+  SetBackgroundColor 53 13 13 255
+  SetTextColor 175 96 37 255
+  SetBorderColor 175 96 37 255
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 38
+

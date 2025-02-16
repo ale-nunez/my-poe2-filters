@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Sceptres"
+#   BaseType "Hallowed Sceptre" "Pious Sceptre" "Aromatic Sceptre" "Wrath Sceptre" "Devotional Sceptre" "Clasped Sceptre" "Devouring Sceptre" "Shrine Sceptre" "Ochre Sceptre" "Omen Sceptre" "Lupine Sceptre" "Stoic Sceptre" "Rattling Sceptre"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Sceptres"
+  Rarity >= Normal
+  SetFontSize 38
+

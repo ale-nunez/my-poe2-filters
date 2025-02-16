@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- AR/EV
+Show # t1 ilvl
+  Class "Body Armours"
+  BaseType "Expert Rogue Armour" "Expert Cloaked Mail" "Expert Scale Mail" # "Advanced Scale Mail" "Advanced Explorer Armour"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR/ES
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  ItemLevel >= 78         # 82 81 78
+  BaseArmour > 240        # 148 245 294
+  BaseEvasion > 220       # 133 223 268
+  SetFontSize 36
+

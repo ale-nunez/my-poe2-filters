@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+  # Class "Claws"
+  # BaseType "Talon Claw" "Piercing Claw" "Armoured Claw" "Sharktooth Claw" "Razorglass Claw" "Hooked Claw" "Arced Claw" "Edged Claw" "Plated Claw" "Forked Claw" "Wolfbone Claw" "Pict Claw" "Crude Claw"
+  # Rarity >= Normal
+  # ItemLevel >= 77
+  # SetFontSize 42
+
+# Class show
+Show
+  Class "Claws"
+  Rarity >= Normal
+  SetFontSize 38
+

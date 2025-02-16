@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- AR/EV
+Show # t1 ilvl
+  Class "Gloves"
+  BaseType "Expert Doubled Gauntlets" "Expert Layered Gauntlets" "Expert Ringmail Gauntlets" # "Advanced Doubled Gauntlets" "Advanced Layered Gauntlets" "Advanced Ringmail Gauntlets"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR/EV
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  ItemLevel >= 78     # 82 81 78
+  BaseArmour > 65        # 48 54 67 80
+  BaseEvasion > 60       # 44 49 61 73
+  SetFontSize 36
+

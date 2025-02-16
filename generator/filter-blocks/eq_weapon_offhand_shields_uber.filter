@@ -1,0 +1,42 @@
+# Bases to show
+# -- AR
+# Show
+#   Class "Shields"
+#   BaseType "Expert Stone Tower Shield" "Expert Rampart Tower Shield" "Expert Braced Tower Shield" "Advanced Stone Tower Shield" "Advanced Heraldric Tower Shield" "Advanced Rampart Tower Shield" "Advanced Effigial Tower Shield" "Advanced Braced Tower Shield" "Advanced Painted Tower Shield" "Blacksteel Tower Shield" "Defiant Tower Shield" "Phalanx Tower Shield" "Ancestor Tower Shield" "Crucible Tower Shield" "Stone Tower Shield" "Heraldric Tower Shield" "Rampart Tower Shield" "Effigial Tower Shield" "Barricade Tower Shield" "Braced Tower Shield" "Painted Tower Shield" "Splintered Tower Shield"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 40
+
+# -- EV
+# Show
+#   Class "Shields"
+#   BaseType "Expert Edged Buckler" "Expert Spiked Buckler" "Expert Plated Buckler" "Advanced Edged Buckler" "Advanced Ringed Buckler" "Advanced Spiked Buckler" "Advanced Ridged Buckler" "Advanced Plated Buckler" "Advanced Wooden Buckler" "Aegis Buckler" "Array Buckler" "Ornate Buckler" "Pearl Buckler" "Laminate Buckler" "Edged Buckler" "Ringed Buckler" "Spiked Buckler" "Ridged Buckler" "Iron Buckler" "Plated Buckler" "Wooden Buckler" "Leather Buckler"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 40
+
+# -- AR/ES
+# Show
+#   Class "Shields"
+#   BaseType "Expert Omen Crest Shield" "Expert Jingling Crest Shield" "Expert Sigil Crest Shield" "Advanced Omen Crest Shield" "Advanced Sectarian Crest Shield" "Advanced Jingling Crest Shield" "Advanced Emblem Crest Shield" "Advanced Sigil Crest Shield" "Advanced Blazon Crest Shield" "Deified Crest Shield" "Empyreal Crest Shield" "Stoic Crest Shield" "Seer Crest Shield" "Wayward Crest Shield" "Omen Crest Shield" "Sectarian Crest Shield" "Jingling Crest Shield" "Emblem Crest Shield" "Sigil Crest Shield" "Blazon Crest Shield"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 40
+
+# -- AR/EV
+# Show
+#   Class "Shields"
+#   BaseType "Expert Feathered Targe" "Expert Crescent Targe" "Expert Pelage Targe" "Advanced Feathered Targe" "Advanced Chiseled Targe" "Advanced Crescent Targe" "Advanced Studded Targe" "Advanced Pelage Targe" "Advanced Hardwood Targe" "Grand Targe" "Aureate Targe" "Mosaic Targe" "Carved Targe" "Stratified Targe" "Feathered Targe" "Chiseled Targe" "Crescent Targe" "Studded Targe" "Pelage Targe" "Hardwood Targe"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 40
+
+# Class show
+Show
+  Class "Shields"
+  Rarity >= Normal
+  BaseArmour > 1            # 1: [ 75 91 | 110 131 144 | 152 182 ] |  2: [ 39 51 | 61 72 80 | 84 100 ]
+  BaseEvasion > 1           # 1: [ 54 87 | 105 119 131 | 139 166 ] |  2: [ 34 46 | 54 65 73 | 76 91 ]
+  BaseEnergyShield > 1      # 2: [ 16 19 | 22 25 28 | 29 35 ]
+  SetFontSize 38
+

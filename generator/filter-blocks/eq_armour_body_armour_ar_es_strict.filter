@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- AR/ES
+Show
+  Class "Body Armours"
+  BaseType "Expert Shaman Mantle" "Expert Sacrificial Mantle" "Expert Pelt Mantle"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR/ES
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  ItemLevel >= 78           # 82
+  BaseArmour > 145          # 148 245 294
+  BaseEnergyShield > 50     # 53 84 101
+  SetFontSize 36
+

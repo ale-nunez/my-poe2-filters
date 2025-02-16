@@ -1,0 +1,10 @@
+# --- Filter by stats
+# -- EV
+Show
+  Class "Helmets"
+  Rarity >= Magic
+  BaseEvasion > 1           # 158 190 222 266
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

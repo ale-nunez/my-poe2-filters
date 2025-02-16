@@ -1,0 +1,11 @@
+Show
+  Class "Waystones"
+  WaystoneTier >= 16
+  SetBackgroundColor 255 255 255
+  SetBorderColor 78 153 52
+  SetTextColor 78 153 52
+  SetFontSize 40
+  PlayAlertSound 2 300
+  PlayEffect White
+  MinimapIcon 2 Red Square
+

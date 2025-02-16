@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "One Hand Maces"
+#   BaseType "Expert Brigand Mace" "Expert Construct Hammer" "Expert Warpick" "Expert Smithing Hammer" "Expert Plated Mace" "Expert Slim Mace" "Advanced Construct Hammer" "Advanced Brigand Mace" "Advanced Plated Mace" "Advanced Warpick" "Advanced Slim Mace" "Advanced Smithing Hammer" "Torment Club" "Execratus Hammer" "Morning Star" "Construct Hammer" "Brigand Mace" "Plated Mace" "Warpick" "Spiked Club" "Slim Mace" "Smithing Hammer" "Wooden Club"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "One Hand Maces"
+  Rarity >= Normal
+  SetFontSize 38
+

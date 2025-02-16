@@ -1,0 +1,57 @@
+# Special Unique Relic
+Show
+  BaseType "Incense Relic"
+  Rarity Unique
+  SetBackgroundColor 255 128 33
+  SetTextColor 255 255 255
+  SetBorderColor 255 255 255
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 45
+
+# Unique Relics
+Show
+  BaseType " Relic"
+  Rarity Unique
+  SetBackgroundColor 200 112 46
+  SetTextColor 53 13 13
+  SetBorderColor 53 13 13
+  PlayAlertSound 3 300
+  PlayEffect Brown
+  MinimapIcon 2 Brown Star
+  SetFontSize 40
+
+# Relics
+Hide
+  BaseType " Relic"
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 231 194 174
+  SetFontSize 30
+
+# keys
+Show
+  BaseType "Bronze Key"
+  SetBackgroundColor 151 81 38 220
+  SetTextColor 255 187 61
+  SetBorderColor 255 187 61
+  SetFontSize 36
+
+Show
+  BaseType "Silver Key"
+  SetBackgroundColor 220 233 238 220
+  SetTextColor 40 61 142
+  SetBorderColor 255 255 255
+  SetFontSize 36
+
+# Gold Key apparently does not work
+Show 
+  BaseType "Gold Key"
+  SetBackgroundColor 255 217 0 245
+  SetTextColor 55 27 11
+  SetBorderColor 255 255 255
+  SetFontSize 40
+  PlayAlertSound 3 300
+  PlayEffect Yellow
+  MinimapIcon 2 Yellow Star
+

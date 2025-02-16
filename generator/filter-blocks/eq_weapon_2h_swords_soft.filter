@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Two Hand Swords"
+#   BaseType "Ultra Greatsword" "Regalia Longsword" "Flanged Greatblade" "Ancient Greatblade" "Keen Greatsword" "Obsidian Greatsword" "Stone Greatsword" "Arced Longsword" "Rippled Greatsword" "Broad Greatsword" "Blessed Claymore" "Iron Greatsword" "Corroded Longsword" "Energy Blade"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Two Hand Swords"
+  Rarity >= Normal
+  SetFontSize 38
+

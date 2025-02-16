@@ -1,0 +1,18 @@
+# --- Filter by BaseTypes
+Show # t1 ilvl
+  Class "Gloves"
+  BaseType "Expert Goldcast Cuffs" "Expert Aged Cuffs" "Expert Rope Cuffs" # "Advanced Goldcast Cuffs" "Advanced Aged Cuffs" "Advanced Rope Cuffs"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR/ES
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  # ItemLevel >= 78         # 82 81 78
+  BaseArmour > 46           # 48 54 67 80
+  BaseEnergyShield > 15     # 17 19 23 28
+  SetFontSize 36
+

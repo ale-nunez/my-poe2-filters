@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- ES
+Show # t1 ilvl
+  Class "Body Armours"
+  BaseType "Expert Hexer's Robe" "Expert Altar Robe" "Expert Keth Raiment" # "Advanced Altar Robe" "Advanced Votive Raiment" "Advanced Keth Raiment"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- ES
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  ItemLevel >= 78             # 82 81 78
+  BaseEnergyShield > 150      # 97 112 153 184 
+  BaseArmour < 1
+  BaseEvasion < 1
+  SetFontSize 36
+

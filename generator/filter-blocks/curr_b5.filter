@@ -1,0 +1,12 @@
+# Currency Tier B5: Gem and Flask Quality
+Show
+  Class "Currency"
+  BaseType "Glassblower's Bauble" "Gemcutter's Prism"
+  SetBackgroundColor 7 255 168
+  SetTextColor 34 36 161
+  SetBorderColor 0 0 0 0
+  SetFontSize 40
+  PlayAlertSound 2 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+

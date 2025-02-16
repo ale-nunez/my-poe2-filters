@@ -1,0 +1,10 @@
+# --- Filter by stats
+# -- ES
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  BaseEnergyShield > 1      #  32 37 42 50
+  BaseArmour < 1
+  BaseEvasion < 1
+  SetFontSize 36
+

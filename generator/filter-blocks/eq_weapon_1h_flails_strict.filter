@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Flails"
+#   BaseType "Abyssal Flail" "Great Flail" "Tearing Flail" "Icicle Flail" "Guarded Flail" "Ring Flail" "Stone Flail" "Slender Flail" "Twin Flail" "Iron Flail" "Holy Flail" "Chain Flail" "Splintered Flail"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Flails"
+  Rarity >= Normal
+  SetFontSize 38
+

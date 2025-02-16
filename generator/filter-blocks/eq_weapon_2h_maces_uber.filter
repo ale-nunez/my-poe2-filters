@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Two Hand Maces"
+#   BaseType "Expert Leaden Greathammer" "Expert Crumbling Maul" "Expert Cultist Greathammer" "Expert Oak Greathammer" "Expert Temple Maul" "Expert Forge Maul" "Advanced Crumbling Maul" "Advanced Leaden Greathammer" "Advanced Temple Maul" "Advanced Cultist Greathammer" "Advanced Forge Maul" "Advanced Oak Greathammer" "Giant Maul" "Precise Greathammer" "Greatmace" "Totemic Greatclub" "Pointed Maul" "Crumbling Maul" "Leaden Greathammer" "Temple Maul" "Cultist Greathammer" "Studded Greatclub" "Forge Maul" "Oak Greathammer" "Felled Greatclub"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Two Hand Maces"
+  Rarity >= Normal
+  SetFontSize 38
+

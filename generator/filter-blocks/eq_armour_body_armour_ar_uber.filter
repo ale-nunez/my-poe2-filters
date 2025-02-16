@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- AR
+Show # t1 ilvl
+  Class "Body Armours"
+  BaseType "Expert Iron Cuirass" "Expert Vaal Cuirass" "Expert Steel Plate" # "Advanced Vaal Cuirass" "Advanced Full Plate" "Advanced Steel Plate"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  ItemLevel >= 78           # 82 81 78
+  BaseArmour > 440          # 269 340 445 534
+  BaseEvasion < 1
+  BaseEnergyShield < 1 
+  SetFontSize 36
+

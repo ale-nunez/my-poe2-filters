@@ -1,0 +1,10 @@
+# --- Filter by stats
+# -- EV
+Show
+  Class "Body Armours"
+  Rarity >= Normal
+  BaseEvasion > 1             # 242 309 406 487
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

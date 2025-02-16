@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Staves"
+#   BaseType "Dark Staff" "Cleric Staff" "Paralysing Staff" "Roaring Staff" "Icicle Staff" "Reaping Staff" "Rending Staff" "Chiming Staff" "Pyrophyte Staff" "Spriggan Staff" "Voltaic Staff" "Gelid Staff" "Ashen Staff"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Staves"
+  Rarity >= Normal
+  SetFontSize 38
+

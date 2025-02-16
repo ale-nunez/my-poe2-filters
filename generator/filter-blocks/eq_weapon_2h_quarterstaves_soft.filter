@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Quarterstaves"
+#   BaseType "Expert Slicing Quarterstaff" "Expert Barrier Quarterstaff" "Expert Crackling Quarterstaff" "Expert Long Quarterstaff" "Expert Crescent Quarterstaff" "Expert Gothic Quarterstaff" "Advanced Barrier Quarterstaff" "Advanced Slicing Quarterstaff" "Advanced Crescent Quarterstaff" "Advanced Crackling Quarterstaff" "Advanced Gothic Quarterstaff" "Advanced Long Quarterstaff" "Wyrm Quarterstaff" "Graceful Quarterstaff" "Anima Quarterstaff" "Smooth Quarterstaff" "Hefty Quarterstaff" "Barrier Quarterstaff" "Slicing Quarterstaff" "Steelpoint Quarterstaff" "Crescent Quarterstaff" "Crackling Quarterstaff" "Gothic Quarterstaff" "Long Quarterstaff" "Wrapped Quarterstaff"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Quarterstaves"
+  Rarity >= Normal
+  SetFontSize 38
+

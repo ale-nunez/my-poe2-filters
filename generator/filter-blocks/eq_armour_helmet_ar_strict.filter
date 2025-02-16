@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- AR
+Show # t1 ilvl
+  Class "Helmets"
+  BaseType "Expert Elite Greathelm" "Expert Spired Greathelm" "Expert Soldier Greathelm" # "Advanced Elite Greathelm" "Advanced Spired Greathelm" "Advanced Wrapped Greathelm" "Advanced Soldier Greathelm"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR
+Show
+  Class "Helmets"
+  Rarity >= Magic
+  # ItemLevel >= 78           # 82 81 75
+  BaseArmour > 175            # 176 196 243 292
+  BaseEvasion < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

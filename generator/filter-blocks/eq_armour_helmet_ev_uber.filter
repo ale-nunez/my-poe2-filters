@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- EV
+Show # t1 ilvl
+  Class "Helmets"
+  BaseType "Expert Hunter Hood" "Expert Swathed Cap" "Expert Felt Cap" # "Advanced Hunter Hood" "Advanced Swathed Cap" "Advanced Lace Hood" "Advanced Felt Cap" "Advanced Shabby Hood"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- EV
+Show
+  Class "Helmets"
+  Rarity >= Magic
+  # ItemLevel >= 78           # 82 81 78
+  BaseEvasion > 220           # 158 190 222 266
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

@@ -1,0 +1,17 @@
+# high ilvl charm
+Show
+  BaseType " Charm"
+  ItemLevel > 82
+  SetBackgroundColor 0 0 0 255
+  SetTextColor 74 129 58
+  SetBorderColor 74 129 58
+  SetFontSize 38
+
+# Base Charm
+Hide
+  BaseType " Charm"
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 74 129 58
+  SetBorderColor 74 129 58
+  SetFontSize 34
+

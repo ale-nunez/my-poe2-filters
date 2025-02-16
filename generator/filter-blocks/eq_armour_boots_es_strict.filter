@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- ES
+Show # t1 ilvl
+  Class "Boots"
+  BaseType "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Wrapped Sandals" # "Advanced Feathered Sandals" "Advanced Silk Slippers" "Advanced Lattice Sandals"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- ES
+Show
+  Class "Boots"
+  Rarity >= Magic
+  # ItemLevel >= 75 # 82 81 75
+  BaseEnergyShield > 46      # 48 55 63 75
+  BaseArmour < 1 
+  BaseEvasion < 1
+  SetFontSize 36
+

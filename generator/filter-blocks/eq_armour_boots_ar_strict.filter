@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- AR
+Show # t1 ilvl
+  Class "Boots"
+  BaseType "Expert Stone Greaves" "Expert Trimmed Greaves" "Expert Iron Greaves" # "Advanced Stone Greaves" "Advanced Trimmed Greaves" "Advanced Bronze Greaves"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR
+Show
+  Class "Boots"
+  Rarity >= Magic
+  # ItemLevel >= 75           # 82 81 75
+  BaseArmour > 130            # 132 157 182 219
+  BaseEvasion < 1
+  BaseEnergyShield < 1 
+  SetFontSize 36
+

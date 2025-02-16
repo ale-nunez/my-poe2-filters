@@ -1,0 +1,10 @@
+# --- Filter by stats
+# -- AR
+Show
+  Class "Boots"
+  Rarity >= Normal
+  BaseArmour > 1            # 132 157 182 219
+  BaseEvasion < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

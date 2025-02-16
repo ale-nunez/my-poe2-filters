@@ -1,0 +1,76 @@
+# #######################################################################################################################################################
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
+# #######################################################################################################################################################
+# 
+# BASES LIST
+# 
+# Best Armour pieces (expert tier)
+# ("T1" "T2" "T3" ...)
+# 
+# ARMOUR ---------------------------------------------
+#
+# BODY ARMOUR AR   "Expert Iron Cuirass" "Expert Vaal Cuirass" "Expert Steel Plate"
+# BODY ARMOUR EV   "Expert Studded Vest" "Expert Pathfinder Coat" "Expert Serpentscale Coat"
+# BODY ARMOUR ES   "Expert Hexer's Robe" "Expert Altar Robe" "Expert Keth Raiment"
+# BODY ARMOUR AR/EV  "Expert Scale Mail" "Expert Cloaked Mail" "Expert Rogue Armour"
+# BODY ARMOUR AR/ES  "Expert Pelt Mantle" "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+# BODY ARMOUR EV/ES  "Expert Waxed Jacket" "Expert Scalper's Jacket" "Expert Wayfarer Jacket"
+#
+# GLOVES AR    "Expert Moulded Mitts" "Expert Bolstered Mitts" "Expert Riveted Mitts"
+# GLOVES EV    "Expert Spined Bracers" "Expert Sectioned Bracers" "Expert Firm Bracers"
+# GLOVES ES    "Expert Intricate Gloves" "Expert Jewelled Gloves" "Expert Sombre Gloves"
+# GLOVES AR/EV   "Expert Doubled Gauntlets" "Expert Layered Gauntlets" "Expert Ringmail Gauntlets"
+# GLOVES AR/ES   "Expert Goldcast Cuffs" "Expert Aged Cuffs" "Expert Rope Cuffs"
+# GLOVES EV/ES   "Expert Spiral Wraps" "Expert Linen Wraps" "Expert Gauze Wraps"
+#
+# HELMETS AR   "Expert Elite Greathelm" "Expert Spired Greathelm" "Expert Soldier Greathelm"
+# HELMETS EV   "Expert Hunter Hood" "Expert Swathed Cap" "Expert Felt Cap"
+# HELMETS ES   "Expert Feathered Tiara" "Expert Chain Tiara" "Expert Wicker Tiara"
+# HELMETS AR/EV  "Expert Shielded Helm" "Expert Cowled Helm" "Expert Guarded Helm"
+# HELMETS AR/ES  "Expert Heavy Crown" "Expert Martyr Crown" "Expert Horned Crown"
+# HELMETS EV/ES  "Expert Tribal Mask" "Expert Veiled Mask" "Expert Face Mask"
+#
+# BOOTS AR     "Expert Stone Greaves" "Expert Trimmed Greaves" "Expert Iron Greaves"
+# BOOTS EV     "Expert Lizardscale Boots" "Expert Steeltoe Boots" "Expert Laced Boots"
+# BOOTS ES     "Expert Feathered Sandals" "Expert Silk Slippers" "Expert Wrapped Sandals"
+# BOOTS AR/EV  "Expert Stacked Sabatons" "Expert Braced Sabatons" "Expert Mail Sabatons"
+# BOOTS AR/ES  "Expert Pelt Leggings" "Expert Secured Leggings" "Expert Padded Leggings"
+# BOOTS EV/ES  "Expert Hunting Shoes" "Expert Threaded Shoes" "Expert Frayed Shoes"
+#
+#
+# WEAPONS ---------------------------------------------
+#
+# 2H
+#
+# BOWS
+# STAVES
+# TWO HAND SWORDS
+# AXES
+# TWO HANDED MACES
+# QUARTERSTAVES
+# CROSSBOWS
+# 
+# 1H
+#
+# CLAWS
+# DAGGERS
+# WANDS
+# ONE HAND SWORDS
+# ONE HAND AXES
+# ONE HAND MACES
+# SCEPTRES
+# SPEARS
+# FLAILS
+# 
+# OFFHANDS
+#
+# QUIVERS
+# SHIELDS
+# FOCUS
+#
+# ----------------------------------------------
+# BaseArmour
+# BaseEvasion
+# BaseEnergyShield
+# 
+# 

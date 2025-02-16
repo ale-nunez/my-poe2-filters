@@ -1,0 +1,5 @@
+# Corrupted items decoration
+Show
+  Corrupted true
+  SetBorderColor 255 0 0 220
+

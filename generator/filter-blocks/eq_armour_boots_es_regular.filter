@@ -1,0 +1,10 @@
+# --- Filter by stats
+# -- ES
+Show
+  Class "Boots"
+  Rarity >= Magic
+  BaseEnergyShield > 1      # 48 55 63 75
+  BaseArmour < 1 
+  BaseEvasion < 1
+  SetFontSize 36
+

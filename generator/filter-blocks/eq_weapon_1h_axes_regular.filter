@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+  # Class "One Hand Axes"
+  # BaseType "Dread Hatchet" "Profane Cleaver" "Battle Axe" "Fury Cleaver" "Boarding Hatchet" "Sacrificial Axe" "Carving Hatchet" "Crescent Axe" "Bandit Hatchet" "Extended Cleaver" "Bearded Axe" "Hook Axe" "Dull Hatchet"
+  # Rarity >= Normal
+  # ItemLevel >= 77
+  # SetFontSize 42
+
+# Class show
+Show
+  Class "One Hand Axes"
+  Rarity >= Normal
+  SetFontSize 38
+

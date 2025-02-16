@@ -1,0 +1,37 @@
+# HIDE BAD JEWELRY BASES --
+# Hide
+#   Class "Rings"
+#   Rarity <= Magic
+#   BaseType "Iron Ring" "Lazuli Ring" "Emerald Ring" "Pearl Ring" "Unset Ring"
+
+# Hide
+#   Class "Amulets"
+#   Rarity <= Magic
+#   BaseType "Crimson Amulet"
+
+# Hide
+#   Class "Belts"
+#   Rarity <= Magic
+#   BaseType "Rawhide Belt" "Linen Belt" "Wide Belt" "Long Belt" "Ornate Belt" "Mail Belt" "Double Belt" "Heavy Belt"
+
+
+# Highlight Jewelry
+Show
+  Class "Rings" "Amulets" "Belts"
+  Rarity Rare
+  SetTextColor 233 206 75
+  SetBorderColor 233 206 75
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Diamond
+  SetFontSize 40
+
+Show
+  Class "Rings" "Amulets" "Belts"
+  Rarity Magic
+  SetFontSize 40
+
+Show
+  Rarity Normal
+  Class "Rings" "Amulets" "Belts"
+  SetFontSize 38
+

@@ -1,0 +1,12 @@
+# Hide
+#   Rarity Normal
+#   BaseType "Advanced Spined Bracers" "Expert Spined Bracers"
+
+Show
+  Rarity Normal
+  BaseType "Spined Bracers" "Heavy Belt" "Sapphire Ring" "Stellar Amulet" "Solid Mask"
+  SetBackgroundColor 0 0 0 50
+  SetTextColor 255 255 255
+  SetBorderColor 255 166 49
+  SetFontSize 38
+

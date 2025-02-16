@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Quivers"
+#   BaseType "Visceral Quiver" "Volant Quiver" "Penetrating Quiver" "Primed Quiver" "Serrated Quiver" "Toxic Quiver" "Blunt Quiver" "Two-Point Quiver" "Sacral Quiver" "Fire Quiver" "Broadhead Quiver"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Quivers"
+  Rarity >= Normal
+  SetFontSize 38
+

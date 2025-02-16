@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- AR/ES
+Show
+  Class "Body Armours"
+  Rarity >= Normal
+  BaseArmour > 1          # 148 245 294
+  BaseEnergyShield > 1    # 53 84 101
+  SetFontSize 36
+

@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- EV/ES
+Show # t1 ilvl
+  Class "Gloves"
+  BaseType "Expert Spiral Wraps" "Expert Linen Wraps" "Expert Gauze Wraps" # "Advanced Spiral Wraps" "Advanced Linen Wraps" "Advanced Gauze Wraps"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- EV/ES
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  ItemLevel >= 78           # 82 81 78
+  BaseEvasion > 60          # 44 49 61 73
+  BaseEnergyShield > 22     # 17 19 23 28
+  SetFontSize 36
+

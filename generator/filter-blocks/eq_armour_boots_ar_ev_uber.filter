@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- AR/EV
+Show # t1 ilvl
+  Class "Boots"
+  BaseType "Expert Stacked Sabatons" "Expert Braced Sabatons" "Expert Mail Sabatons" # "Advanced Stacked Sabatons" "Advanced Braced Sabatons" "Advanced Mail Sabatons"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR/EV
+Show
+  Class "Boots"
+  Rarity >= Magic
+  ItemLevel >= 75         # 82 81 75
+  BaseArmour > 99         # 73 92 100 120
+  BaseEvasion > 90        # 65 84 91 110
+  SetFontSize 36
+

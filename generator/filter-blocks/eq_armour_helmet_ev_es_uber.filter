@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- EV/ES
+Show # t1 ilvl
+  Class "Helmets"
+  BaseType "Expert Tribal Mask" "Expert Veiled Mask" "Expert Face Mask" # "Advanced Tribal Mask" "Advanced Veiled Mask" "Advanced Hooded Mask" "Advanced Face Mask" "Advanced Hewn Mask"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- EV/ES
+Show
+  Class "Helmets"
+  Rarity >= Magic
+  ItemLevel >= 78           # 82 81 78
+  BaseEvasion > 80          # 87 105 122 146
+  BaseEnergyShield > 32     # 35 41 46 55
+  SetFontSize 36
+

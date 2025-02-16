@@ -1,0 +1,12 @@
+# Currency Tier B2: Vaal
+Show
+  Class "Currency"
+  BaseType "Vaal Orb"
+  SetBackgroundColor 190 34 34
+  SetTextColor 251 221 0
+  SetBorderColor 251 221 0
+  PlayAlertSound 2 300
+  PlayEffect Red
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 40
+

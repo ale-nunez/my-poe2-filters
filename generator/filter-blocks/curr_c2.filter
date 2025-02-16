@@ -1,0 +1,18 @@
+# Currency Tier C2.a: Transmut
+Show
+  Class "Currency"
+  BaseType "Orb of Transmutation"
+  SetBackgroundColor 44 65 201
+  SetTextColor 255 255 255
+  SetFontSize 36
+  MinimapIcon 2 Grey Circle
+
+# Currency Tier C2.b: Augment, #shard
+Show
+  Class "Currency"
+  BaseType "Orb of Augmentation" " Shard"
+  SetBackgroundColor 83 99 202
+  SetTextColor 255 255 255
+  SetFontSize 36
+  MinimapIcon 2 Grey Circle
+

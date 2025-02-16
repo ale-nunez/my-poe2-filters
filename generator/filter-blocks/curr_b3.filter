@@ -1,0 +1,12 @@
+# Currency Tier B3: Exalted
+Show
+  Class "Currency"
+  BaseType "Exalted Orb"
+  SetBackgroundColor 251 221 0
+  SetTextColor 35 53 114
+  SetBorderColor 35 53 114
+  PlayAlertSound 2 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 38
+

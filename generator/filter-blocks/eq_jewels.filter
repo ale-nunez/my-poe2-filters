@@ -1,0 +1,32 @@
+# Unique Jewels
+Show
+  Class "Jewels"
+  Rarity Unique
+  SetBackgroundColor 235 125 0
+  SetTextColor 148 253 244
+  SetBorderColor 68 217 205
+  SetFontSize 42
+  MinimapIcon 2 Cyan Triangle
+  PlayEffect Cyan Temp
+
+# Time-Lost Jewels
+Show
+  Class "Jewels"
+  BaseType "Time-Lost "
+  SetBackgroundColor 72 255 234
+  SetTextColor 0 0 0
+  SetBorderColor 0 0 0 0
+  SetFontSize 42
+  MinimapIcon 2 Cyan Triangle
+  PlayEffect Cyan Temp
+
+# Any Jewels
+Show
+  Class "Jewels"
+  SetBackgroundColor 0 0 0 185
+  SetTextColor 72 255 234
+  SetBorderColor 72 255 234
+  SetFontSize 40
+  MinimapIcon 2 Cyan Triangle
+  PlayEffect Cyan Temp
+

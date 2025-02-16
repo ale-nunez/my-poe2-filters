@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- EV
+Show # t1 ilvl
+  Class "Boots"
+  BaseType "Expert Lizardscale Boots" "Expert Steeltoe Boots" "Expert Laced Boots" # "Advanced Lizardscale Boots" "Advanced Steeltoe Boots" "Advanced Embossed Boots"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- EV
+Show
+  Class "Boots"
+  Rarity >= Magic
+  # ItemLevel >= 75           # 82 81 75
+  BaseEvasion > 115           # 119 143 166 200
+  BaseArmour < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Spears"
+#   BaseType "Helix Spear" "Striking Spear" "Sword Spear" "Seaglass Spear" "Crossblade Spear" "Broad Spear" "Barbed Spear" "Forked Spear" "War Spear" "Winged Spear" "Hunting Spear" "Ironhead Spear" "Hardwood Spear"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Spears"
+  Rarity >= Normal
+  SetFontSize 38
+

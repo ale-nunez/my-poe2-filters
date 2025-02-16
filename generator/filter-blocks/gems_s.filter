@@ -1,0 +1,10 @@
+Show
+  BaseType "Uncut "
+  ItemLevel >= 20
+  SetBackgroundColor 255 168 249
+  SetTextColor 0 0 0
+  PlayAlertSound 2 300
+  PlayEffect Red
+  MinimapIcon 1 Red Triangle
+  SetFontSize 45
+

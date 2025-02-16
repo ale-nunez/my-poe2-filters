@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Crossbows"
+#   BaseType "Expert Forlorn Crossbow" "Expert Bombard Crossbow" "Expert Dyad Crossbow" "Expert Tense Crossbow" "Expert Varnished Crossbow" "Expert Sturdy Crossbow" "Advanced Forlorn Crossbow" "Advanced Bombard Crossbow" "Advanced Dyad Crossbow" "Advanced Varnished Crossbow" "Advanced Sturdy Crossbow" "Advanced Tense Crossbow" "Esoteric Crossbow" "Dedalian Crossbow" "Cumbrous Crossbow" "Piercing Crossbow" "Blackfire Crossbow" "Construct Crossbow" "Bombard Crossbow" "Alloy Crossbow" "Dyad Crossbow" "Varnished Crossbow" "Sturdy Crossbow" "Tense Crossbow" "Makeshift Crossbow"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Crossbows"
+  Rarity >= Normal
+  SetFontSize 38
+

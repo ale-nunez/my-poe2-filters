@@ -1,0 +1,7 @@
+Show
+  BaseType " Rune"
+  SetBackgroundColor 0 0 0 120
+  SetTextColor 173 116 253
+  SetBorderColor 173 116 253
+  SetFontSize 34
+

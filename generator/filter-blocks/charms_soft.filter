@@ -1,0 +1,8 @@
+# Base Charm
+Show
+  BaseType " Charm"
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 74 129 58
+  SetBorderColor 74 129 58
+  SetFontSize 38
+

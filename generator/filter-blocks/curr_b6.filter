@@ -1,0 +1,11 @@
+# Currency Tier B6: Regal
+Show
+  Class "Currency"
+  BaseType "Regal Orb"
+  SetBackgroundColor 64 213 229 
+  SetTextColor 34 36 161
+  PlayAlertSound 2 300
+  PlayEffect White
+  MinimapIcon 1 White Circle
+  SetFontSize 35
+

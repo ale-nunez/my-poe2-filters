@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- EV/ES
+Show # t1 ilvl
+  Class "Body Armours"
+  BaseType "Expert Waxed Jacket" "Expert Scalper's Jacket" "Expert Wayfarer Jacket" # "Advanced Scalper's Jacket" "Advanced Anchorite Garb" "Advanced Wayfarer Jacket"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- EV/ES
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  # ItemLevel >= 78           # 82 81 78
+  BaseEvasion > 130           # 133 223 268
+  BaseEnergyShield > 50       # 53 84 101
+  SetFontSize 36
+

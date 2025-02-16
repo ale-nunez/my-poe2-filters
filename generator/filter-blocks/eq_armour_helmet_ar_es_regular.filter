@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- AR/ES
+Show
+  Class "Helmets"
+  Rarity >= Magic
+  BaseArmour > 1          #  97 115 134 160
+  BaseEnergyShield > 1    #  35 41 46 55
+  SetFontSize 36
+

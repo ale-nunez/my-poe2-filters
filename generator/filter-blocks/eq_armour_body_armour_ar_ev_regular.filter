@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- AR/EV
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  BaseArmour > 1        # 148 245 294
+  BaseEvasion > 1       # 133 223 268
+  SetFontSize 36
+

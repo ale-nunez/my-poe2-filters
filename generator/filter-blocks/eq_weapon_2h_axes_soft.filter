@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "Two Hand Axes"
+#   BaseType "Vile Greataxe" "Monument Greataxe" "Ceremonial Halberd" "Ember Greataxe" "Reaver Glaive" "Jagged Greataxe" "Rending Halberd" "Savage Greataxe" "Elegant Glaive" "Arched Greataxe" "Executioner Greataxe" "Light Halberd" "Splitting Greataxe"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Two Hand Axes"
+  Rarity >= Normal
+  SetFontSize 38
+

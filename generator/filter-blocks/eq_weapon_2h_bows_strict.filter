@@ -1,0 +1,19 @@
+# -- special: crossbows hide
+Hide
+  Class "Crossbows"
+  Rarity <= Magic
+
+# Bases to show
+# Show
+#   Class "Bows"
+#   BaseType "Expert Zealot Bow" "Expert Cultist Bow" "Expert Dualstring Bow" "Expert Warden Bow" "Expert Composite Bow" "Expert Shortbow" "Advanced Zealot Bow" "Advanced Cultist Bow" "Advanced Dualstring Bow" "Advanced Composite Bow" "Advanced Warden Bow" "Advanced Shortbow" "Heavy Bow" "Double Limb Bow" "Greatbow" "Tribal Bow" "Artillery Bow" "Zealot Bow" "Cultist Bow" "Dualstring Bow" "Composite Bow" "Recurve Bow" "Warden Bow" "Shortbow" "Crude Bow"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "Bows"
+  Rarity >= Normal
+  SetFontSize 38
+

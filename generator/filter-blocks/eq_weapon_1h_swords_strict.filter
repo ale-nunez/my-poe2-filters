@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+#   Class "One Hand Swords"
+#   BaseType "Dark Blade" "Commander Sword" "Messer" "Runic Shortsword" "Cutlass" "Treasured Blade" "Falchion" "Sickle Sword" "Charred Shortsword" "Scimitar" "Vampiric Blade" "Broadsword" "Shortsword" "Energy Blade" "Golden Blade"
+#   Rarity >= Normal
+#   ItemLevel >= 77
+#   SetFontSize 42
+
+# Class show
+Show
+  Class "One Hand Swords"
+  Rarity >= Normal
+  SetFontSize 38
+

@@ -1,0 +1,5 @@
+# INIT: Hide Off-Hands
+Hide
+  Class "Quivers" "Shields" "Foci" "Focus"
+  Rarity <= Magic
+

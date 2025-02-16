@@ -1,0 +1,11 @@
+# Currency Tier B4: Alchemy
+Show
+  Class "Currency"
+  BaseType "Orb of Alchemy"
+  SetBackgroundColor 251 221 0
+  SetTextColor 0 0 0
+  PlayAlertSound 2 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 35
+

@@ -1,0 +1,55 @@
+#
+# ---------------------------------------------------------------------------------------------------
+# --- INDEX -----------------------------------------------------------------------------------------
+#   0001 / CURRENCY
+#     00011.1 /  Currency
+#       0001.1.1 / Tier S
+#       0001.1.2 / Tier A
+#       0001.1.3 / Tier B
+#       0001.1.4 / Tier C
+#       0001.1.5 / Scroll of Wisdom
+#       0001.1.6 / Gold
+#    00011.2 /  Special currency and league currency
+#       0001.2.1 / Sanctum
+#       0001.2.2 / Ultimatum  
+#       0001.2.3 / Delyrium / Simulacrum 
+#       0001.2.4 / Breach / Catalysts   
+#       0001.2.5 / Ritual / Omens
+#       0001.2.6 / Common
+#       0001.2.7 / Unknown Currency
+#   0002 / MAPS 
+#     0002.1 /  Waystones
+#       0002.1.1 / Waystones tier S
+#       0002.1.2 / Waystones tier A
+#       0002.1.3 / Waystones tier B
+#       0002.1.4 / Waystones tier C
+#     0002.2 /  Tablets
+#   0003 / GEMS
+#     0003.1 /  Gems tier S
+#     0003.1 /  Gems tier A
+#   0004 / FLASKS
+#   0005 / RUNES
+#     0005.1 / Tier A runes
+#     0005.2 / Base runes
+#   0006 / CHARMS
+#   0007 / SALVAGABLE
+#   0008 / EQUIPMENT
+#     0008.1 / Uniques
+#     0008.2 / Chance Bases
+#     0008.3 / Jewelry
+#     0008.4 / Jewels
+#     0008.5 / Weapons
+#       0008.5.1 / 1h Weapons
+#       0008.5.2 / 2h Weapons
+#       0008.5.3 / Off-hands
+#     0008.6 / Armour
+#       0008.6.1 / Body Armour
+#       0008.6.2 / Helmet
+#       0008.6.3 / Boot
+#       0008.6.4 / Gloves
+#       0008.6.5 / Init
+#   0009 / INIT
+#  
+# ..................................................................................................
+# ..................................................................................................
+

@@ -1,0 +1,22 @@
+Show
+  StackSize >= 1500
+  BaseType == "Gold"
+  SetTextColor 255 179 56 240
+  SetBorderColor 255 179 56 240
+  PlayEffect Orange Temp
+  SetFontSize 38
+
+Show
+  StackSize >= 800
+  BaseType == "Gold"
+  SetTextColor 255 179 56 240
+  SetBorderColor 255 179 56 240
+  SetFontSize 32
+
+Show
+  BaseType == "Gold"
+  SetTextColor 255 179 56 240
+  SetBorderColor 0 0 0 0
+  SetBackgroundColor 0 0 0 120
+  SetFontSize 28
+

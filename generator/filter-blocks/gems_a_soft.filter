@@ -1,0 +1,36 @@
+# SKILL GEM, CURRENT TIER
+Show
+  BaseType "Uncut Skill"
+  # ItemLevel >= 19
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 255 168 249
+  SetBorderColor 255 168 249
+  MinimapIcon 1 White Triangle
+  SetFontSize 36
+
+# SPIRITSKILL GEM, CURRENT TIER
+Show
+  BaseType "Uncut Spirit"
+  # ItemLevel >= 19
+  SetBackgroundColor 23 57 73
+  SetTextColor 255 168 249
+  SetBorderColor 255 168 249
+  MinimapIcon 1 White Triangle
+  SetFontSize 36
+
+# SUPPORT GEM, CURRENT TIER
+Show
+  BaseType "Uncut Support"
+  SetBackgroundColor 43 33 30 220
+  SetTextColor 255 168 249
+  MinimapIcon 1 Grey Triangle
+  SetFontSize 36
+
+# GEM BASE STYLE
+Show
+  BaseType "Uncut "
+  SetBackgroundColor 0 0 0 220
+  SetTextColor 255 168 249
+  MinimapIcon 1 Grey Triangle
+  SetFontSize 30
+

@@ -1,0 +1,10 @@
+# --- Filter by BaseTypes
+# Show # t1 ilvl
+#   Class "Body Armours"
+#   BaseType ""
+#   Rarity >= Normal
+#   ItemLevel >= 82
+#   SetFontSize 40
+
+# ---
+

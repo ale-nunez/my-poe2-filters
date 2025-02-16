@@ -1,0 +1,10 @@
+Show
+  Class "Currency"
+  SetTextColor 255 217 0 245
+  SetBorderColor 55 27 11
+  SetBackgroundColor 255 255 255
+  SetFontSize 36
+  PlayAlertSound 2 300
+  PlayEffect Pink
+  MinimapIcon 1 Pink Circle
+

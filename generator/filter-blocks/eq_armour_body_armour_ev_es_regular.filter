@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- EV/ES
+Show
+  Class "Body Armours"
+  Rarity >= Magic
+  BaseEvasion > 1           # 133 223 268
+  BaseEnergyShield > 1      # 53 84 101
+  SetFontSize 36
+

@@ -1,0 +1,32 @@
+# Quality Flasks
+Show
+  Class "Flasks"
+  Quality >= 1
+  SetBackgroundColor 57 76 82 220
+  SetBorderColor 200 200 200
+  SetFontSize 36
+
+# Flasks HIDE override
+Hide
+  Class "Flasks"
+  BaseType "Lesser " # "Medium " "Greater " "Grand " "Giant " "Colossal " "Gargantuan " "Transcendent " "Ultimate "
+  Rarity Normal
+
+# Life flasks
+Show
+  Class "Life Flasks"
+  # Rarity >= Magic
+  # ItemLevel >= 67           # 83 67 
+  SetBackgroundColor 99 45 45 210
+  SetBorderColor 163 113 113
+  SetFontSize 32
+
+# Mana flasks
+Show
+  Class "Mana Flasks"
+  # Rarity >= Magic
+  # ItemLevel >= 67           # 83 67 
+  SetBackgroundColor 41 89 97 210
+  SetBorderColor 64 128 139
+  SetFontSize 32
+

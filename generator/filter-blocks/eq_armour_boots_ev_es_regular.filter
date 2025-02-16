@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- EV/ES
+Show
+  Class "Boots"
+  Rarity >= Magic
+  BaseEvasion > 1           # 65 84 91 110
+  BaseEnergyShield > 1      # 26 32 35 42
+  SetFontSize 36
+

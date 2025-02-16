@@ -1,0 +1,21 @@
+### ---------------------------TO BE DONE
+# --- Filter by BaseTypes
+# -- ES
+Show # t1 ilvl
+  Class "Gloves"
+  BaseType "Expert Intricate Gloves" "Expert Jewelled Gloves" "Expert Sombre Gloves" # "Advanced Intricate Gloves" "Advanced Jewelled Gloves" "Advanced Stitched Gloves" "Advanced Sombre Gloves"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- ES
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  # ItemLevel >= 78         # 82 81 75
+  BaseEnergyShield > 30      #  32 37 42 50
+  BaseArmour < 1
+  BaseEvasion < 1
+  SetFontSize 36
+

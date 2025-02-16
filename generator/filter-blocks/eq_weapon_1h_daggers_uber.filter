@@ -1,0 +1,14 @@
+# Bases to show
+# Show
+  # Class "Daggers"
+  # BaseType "Cinquedea" "Arcane Dirk" "Parrying Dagger" "Kris Knife" "Mail Breaker" "Bloodletting Dagger" "Obsidian Dagger" "Engraved Knife" "Moon Dagger" "Skinning Knife" "Simple Dagger" "Crone Knife" "Glass Shank" "Ethereal Blade"
+  # Rarity >= Normal
+  # ItemLevel >= 77
+  # SetFontSize 42
+
+# Class show
+Show
+  Class "Daggers"
+  Rarity >= Normal
+  SetFontSize 38
+

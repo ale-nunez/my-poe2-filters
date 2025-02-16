@@ -1,0 +1,11 @@
+# Currency Tier B1: Chaos
+Show
+  Class "Currency"
+  BaseType "Chaos Orb"
+  SetBackgroundColor 221 251 0
+  SetTextColor 0 0 0
+  PlayAlertSound 2 300
+  PlayEffect Yellow
+  MinimapIcon 1 Yellow Circle
+  SetFontSize 40
+

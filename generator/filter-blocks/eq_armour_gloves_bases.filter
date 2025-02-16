@@ -1,0 +1,9 @@
+# -- Desired Specific BaseTypes
+# Show
+#   Class "Gloves"
+  # BaseType "Expert " "Advanced "
+  # ItemLevel >= 78
+  # SetFontSize 42
+
+# ---
+

@@ -1,0 +1,19 @@
+# Currency Tier C3: Basic Quality | #quality
+Show
+  Class "Currency"
+  BaseType "Blacksmith's Whetstone" "Arcanist's Etcher"
+  SetBackgroundColor 29 39 56
+  SetTextColor 255 207 132
+  SetBorderColor 255 207 132
+  SetFontSize 38
+  MinimapIcon 2 Grey Circle
+
+Show
+  Class "Currency"
+  BaseType "Armourer's Scrap"
+  SetBackgroundColor 49 63 89
+  SetTextColor 255 207 132
+  SetBorderColor 255 207 132
+  SetFontSize 34
+  MinimapIcon 2 Grey Circle
+

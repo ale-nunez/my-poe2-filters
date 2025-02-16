@@ -1,0 +1,5 @@
+# INIT: Hide 1H  Weapons
+Hide
+  Class "Claws" "Daggers" "Wands" "One Hand Swords" "One Hand Axes" "One Hand Maces" "Sceptres" "Spears" "Flails"
+  Rarity <= Magic
+

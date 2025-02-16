@@ -1,0 +1,19 @@
+# --- Filter by BaseTypes
+# -- AR/ES
+Show # t1 ilvl
+  Class "Boots"
+  BaseType "Expert Pelt Leggings" "Expert Secured Leggings" "Expert Padded Leggings" # "Advanced Pelt Leggings" "Advanced Secured Leggings" "Advanced Padded Leggings"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR/ES
+Show
+  Class "Boots"
+  Rarity >= Magic
+  # ItemLevel >= 75           # 82 81 75
+  BaseArmour > 70             #  73 92 100 120
+  BaseEnergyShield > 25       #  26 32 35 42
+  SetFontSize 36
+

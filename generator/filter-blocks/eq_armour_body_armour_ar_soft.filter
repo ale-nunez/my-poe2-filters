@@ -1,0 +1,11 @@
+# --- Filter by stats
+# -- AR
+Show
+  Class "Body Armours"
+  Rarity >= Normal
+  # ItemLevel >= 78         # 82 81 78
+  BaseArmour > 1            # 148 245 294
+  BaseEvasion < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

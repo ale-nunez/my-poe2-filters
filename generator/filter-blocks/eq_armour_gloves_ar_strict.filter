@@ -1,0 +1,20 @@
+# --- Filter by BaseTypes
+# -- AR
+Show # t1 ilvl
+  Class "Gloves"
+  BaseType "Expert Moulded Mitts" "Expert Bolstered Mitts" "Expert Riveted Mitts" # "Advanced Moulded Mitts" "Advanced Tempered Mitts" "Advanced Tempered Mitts" "Advanced Riveted Mitts"
+  Rarity >= Normal
+  ItemLevel >= 82
+  SetFontSize 40
+
+# --- Filter by stats
+# -- AR
+Show
+  Class "Gloves"
+  Rarity >= Magic
+  # ItemLevel >= 78       # 82 81 78
+  BaseArmour > 85          # 88 105 122 146
+  BaseEvasion < 1
+  BaseEnergyShield < 1
+  SetFontSize 36
+

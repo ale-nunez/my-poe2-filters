@@ -1,0 +1,12 @@
+## Divine Orb Style
+Show
+  Class "Currency"
+  BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
+  SetTextColor 255 3 3
+  SetBorderColor 255 3 3
+  SetBackgroundColor 255 255 255
+  SetFontSize 45
+  PlayAlertSound 6 300
+  PlayEffect Red
+  MinimapIcon 0 Red Star
+

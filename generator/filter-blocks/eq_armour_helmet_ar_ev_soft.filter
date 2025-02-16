@@ -1,0 +1,9 @@
+# --- Filter by stats
+# -- AR/EV
+Show
+  Class "Helmets"
+  Rarity >= Normal
+  BaseArmour > 1        # 97 115 134 160
+  BaseEvasion > 1       # 87 105 122 146
+  SetFontSize 36
+
