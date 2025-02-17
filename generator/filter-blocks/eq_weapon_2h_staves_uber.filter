@@ -1,3 +1,9 @@
+# -- special: Quarterstaves hide
+Hide
+  Class "Quarterstaves"
+  Rarity <= Rare
+  SetFontSize 32
+
 # Bases to show
 # Show
 #   Class "Staves"
