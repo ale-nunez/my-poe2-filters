@@ -81,7 +81,7 @@ Show
 Show
   Class "Currency"
   BaseType "Simulacrum Splinter" "Breach Splinter" " Artifact"
-  SetBackgroundColor 0 0 0 185 220
+  SetBackgroundColor 0 0 0 220
   SetTextColor 252 63 132
   SetBorderColor 252 63 132
   SetFontSize 38

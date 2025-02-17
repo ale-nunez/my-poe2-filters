@@ -34,9 +34,9 @@
 # Class show
 Show
   Class "Shields"
-  Rarity >= Normal
-  BaseArmour > 1            # 1: [ 75 91 | 110 131 144 | 152 182 ] |  2: [ 39 51 | 61 72 80 | 84 100 ]
-  BaseEvasion > 1           # 1: [ 54 87 | 105 119 131 | 139 166 ] |  2: [ 34 46 | 54 65 73 | 76 91 ]
-  BaseEnergyShield > 1      # 2: [ 16 19 | 22 25 28 | 29 35 ]
+  Rarity >= Magic
+  # BaseArmour > 1            # 1: [ 75 91 | 110 131 144 | 152 182 ] |  2: [ 39 51 | 61 72 80 | 84 100 ]
+  # BaseEvasion > 1           # 1: [ 54 87 | 105 119 131 | 139 166 ] |  2: [ 34 46 | 54 65 73 | 76 91 ]
+  # BaseEnergyShield > 1      # 2: [ 16 19 | 22 25 28 | 29 35 ]
   SetFontSize 38
 

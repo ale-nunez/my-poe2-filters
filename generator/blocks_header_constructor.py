@@ -89,8 +89,7 @@ def filter_header(filter_title, version, author, description) :
     header_line('2', '=', line_len, 'VERSION: ' + version),
     header_line('2', '=', line_len, 'AUTHOR: ' + author),
     header_line('2', '=', line_len, description),
-    header_line('2', '=', line_len, ''),
-    '\n'
+    header_line('2', '=', line_len, '')
   ]
 
   for line in lines: 

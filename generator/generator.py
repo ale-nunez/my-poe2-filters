@@ -1,14 +1,16 @@
 
 import os
-from conf.conf_files import conf
+from conf.conf_files import filter_bow1_soft, filter_bow1_regular, filter_bow1_strict, filter_bow1_uber, filter_sorc_soft, filter_sorc_regular, filter_sorc_strict, filter_sorc_uber
+from conf.conf import conf_list
 from conf.filter_structure import filter_structure
-# import blocks_header_constructor as header_const
 from blocks_header_constructor import filter_header, header_block
 
 dirname = os.path.dirname(__file__)
 export_folder = os.path.join(dirname, 'output')
 blocks_folder = os.path.join(dirname, 'filter-blocks')
 blocks_extension = '.filter'
+
+output_results = []
 
 def fwrite_lines(wf, rf) :
   with open(rf, "r") as rfile:
@@ -20,7 +22,9 @@ def construct(filt_structure, conf_list):
 
   for conf_obj in conf_list :
 
-    export_file = os.path.join(export_folder, conf_obj.get('name') + '.filter')
+    export_file_name =  conf_obj.get('name') + '.filter'
+    export_file = os.path.join(export_folder, export_file_name)
+    print(  'export file: ' + export_file_name )
     
     with open(export_file, "w") as file :
 
@@ -30,7 +34,7 @@ def construct(filt_structure, conf_list):
           
           case 'filter-header': 
             
-            fheader_title = 'My Poe2 filter | ' + conf_obj.get('name') + ' | ' + conf_obj.get('strictness')
+            fheader_title = 'My Poe2 filter | ' + conf_obj.get('name')
             fheader_version = conf_obj.get('version')
             fheader_author = conf_obj.get('author')
             fheader_desc = conf_obj.get('description')
@@ -91,7 +95,10 @@ def construct(filt_structure, conf_list):
 
           case _: print('---------- NO CASE')
 
-construct(filter_structure, conf)
+print("Generating filters...")
+construct(filter_structure, conf_list)
+print("Done!!")
+
 
 # for config in conf:
 #   print(filter_header(config.get('name'), config.get('version'), config.get('author'), config.get('description')))

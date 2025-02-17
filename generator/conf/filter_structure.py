@@ -216,7 +216,7 @@ filter_structure = [
     'name' : 'common_currency_d_scrolls_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "3",
+      "type" : "2",
       "index" : "0001.1.5",
       "text" : "Scroll of Wisdom",
       "tags" : "#wisdom #scroll"
@@ -236,7 +236,7 @@ filter_structure = [
     'name' : 'common_currency_e_gold_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "3",
+      "type" : "2",
       "index" : "0001.1.6",
       "text" : "Gold",
       "tags" : "#gold"
@@ -267,7 +267,7 @@ filter_structure = [
     'name' : 'league_currency_00_common_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.1",
       "text" : "Common",
       "tags" : "#league #common"
@@ -287,7 +287,7 @@ filter_structure = [
     'name' : 'league_currency_01_sanctum_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.2",
       "text" : "Sanctum",
       "tags" : "#sanctum #sekhema #trial"
@@ -307,7 +307,7 @@ filter_structure = [
     'name' : 'league_currency_02_ultimatum_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.3",
       "text" : "Ultimatum",
       "tags" : "#ultimatum #trial"
@@ -327,7 +327,7 @@ filter_structure = [
     'name' : 'league_currency_03_delyrium_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.4",
       "text" : "Delyrium / Simulacrum",
       "tags" : "#delyrium #simulacrum"
@@ -347,7 +347,7 @@ filter_structure = [
     'name' : 'league_currency_04_breach_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.5",
       "text" : "Breach / Catalyst",
       "tags" : "#breach #catalyst"
@@ -367,7 +367,7 @@ filter_structure = [
     'name' : 'league_currency_05_expedition_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.6",
       "text" : "Expedition",
       "tags" : "#expedition"
@@ -387,7 +387,7 @@ filter_structure = [
     'name' : 'league_currency_06_ritual_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.7",
       "text" : "Ritual / Omens",
       "tags" : "#ritual #omen"
@@ -407,7 +407,7 @@ filter_structure = [
     'name' : 'currency_unknown_header',
     'type' : 'header',
     "header-data" : {
-      "type" : "2",
+      "type" : "3",
       "index" : "0001.2.8",
       "text" : "Unknown Currency",
       "tags" : "#currency #unknown"
@@ -710,6 +710,16 @@ filter_structure = [
     ] 
   },
   # --------------------------------------- 0008 EQUIPMENT
+  {
+    'name' : 'equipment_header',
+    'type' : 'header',
+    "header-data" : {
+      "type" : "1",
+      "index" : "0008",
+      "text" : "Equipment",
+      "tags" : "#equipment"
+    }
+  },
   # ------------------------- 0008.0 Decorators
   {
     'name' : 'eq_decorators_header',
@@ -942,7 +952,7 @@ filter_structure = [
       { "strictness" : "uber", "file" : "eq_weapon_1h_init_strict" },
       { "strictness" : "strict", "file" : "eq_weapon_1h_init" },
       { "strictness" : "regular", "file" : "eq_weapon_1h_init" },
-      { "strictness" : "soft", "file" : "eq_weapon_1h_init" }
+      { "strictness" : "soft", "file" : "eq_weapon_1h_init_soft" }
     ] 
   },
   # ------------------------- 0008.5.2 2h weapons
@@ -1043,7 +1053,7 @@ filter_structure = [
       { "strictness" : "uber", "file" : "eq_weapon_2h_init_strict" },
       { "strictness" : "strict", "file" : "eq_weapon_2h_init" },
       { "strictness" : "regular", "file" : "eq_weapon_2h_init" },
-      { "strictness" : "soft", "file" : "eq_weapon_2h_init" }
+      { "strictness" : "soft", "file" : "eq_weapon_2h_init_soft" }
     ] 
   },
   # ------------------------- 0008.5.3 Off-hands
@@ -1108,7 +1118,7 @@ filter_structure = [
       { "strictness" : "uber", "file" : "eq_weapon_offhand_init_strict" },
       { "strictness" : "strict", "file" : "eq_weapon_offhand_init" },
       { "strictness" : "regular", "file" : "eq_weapon_offhand_init" },
-      { "strictness" : "soft", "file" : "eq_weapon_offhand_init" }
+      { "strictness" : "soft", "file" : "eq_weapon_offhand_init_soft" }
     ] 
   },
   # ------------------------- 0008.6 Armours
@@ -1465,10 +1475,10 @@ filter_structure = [
     'name' : 'eq_armour_init_block',
     'type' : 'block',
     'files' : [
-      { "strictness" : "uber", "file" : "eq_armour_init" },
+      { "strictness" : "uber", "file" : "eq_armour_init_strict" },
       { "strictness" : "strict", "file" : "eq_armour_init" },
       { "strictness" : "regular", "file" : "eq_armour_init" },
-      { "strictness" : "soft", "file" : "eq_armour_init" }
+      { "strictness" : "soft", "file" : "eq_armour_init_soft" }
     ] 
   },
   # ------------------------- 0009 Filter init
